@@ -1,6 +1,331 @@
 {
-  "home": {
-    "title": "Events in Dubai",
-    "description": "Book your service now!"
+  "greeting": {
+    "title": "Olymp Spa",
+    "subtitle": "empire of beauty",
+    "paragraph1": "OLYMP is not just a spa center, but a true oasis of relaxation and self-care, located in the 'Moskovskie Vorota' hotel.",
+    "paragraph2": "We offer a variety of care programs, including classic, sports, anti-cellulite massage, as well as the unique 'Sultan' ritual with four hands performed by true masters.",
+    "paragraph3": "After your massage session, continue your wellness journey with a cedar barrel treatment. Hairdresser and brow services are also available to complete your transformation.",
+    "paragraph4": "Feel the atmosphere of warmth, comfort, and peace at the OLYMP salon."
+  },
+  "duration": {
+    "30": "30 minutes",
+    "60": "60 minutes",
+    "90": "90 minutes",
+    "120": "120 minutes",
+    "150": "150 minutes",
+    "200": "200 minutes"
+  },
+  "browServices": {
+    "title": "Brow & Lash Services",
+    "services": [
+      {
+        "title": "Eyelash coloring",
+        "description": "Expressive color and rich look.",
+        "options": {
+          "advanced": "Standard"
+        }
+      },
+      {
+        "title": "Eyelash lamination",
+        "description": "Strengthening and curling your lashes.",
+        "options": {
+          "standard": "Standard"
+        }
+      },
+      {
+        "title": "Double eyelash lamination",
+        "description": "Maximum care and volume for your lashes.",
+        "options": {
+          "double": "Double"
+        }
+      },
+      {
+        "title": "Brow correction + coloring",
+        "description": "Shape and color for your face type.",
+        "options": {
+          "full": "Full service"
+        }
+      },
+      {
+        "title": "Lightening + coloring + correction",
+        "description": "Thorough brow work: lightening, color, shape.",
+        "options": {
+          "combo": "Combo"
+        }
+      },
+      {
+        "title": "Long-lasting styling + correction + coloring",
+        "description": "Long-term perfect brows effect.",
+        "options": {
+          "care": "Full care"
+        }
+      },
+      {
+        "title": "Brow coloring without correction",
+        "description": "A simple way to refresh the color.",
+        "options": {
+          "noCorrection": "No correction"
+        }
+      },
+      {
+        "title": "Facial waxing",
+        "description": "Remove unwanted hair from one zone.",
+        "options": {
+          "zone1": "1 zone"
+        }
+      },
+      {
+        "title": "Men’s Eyebrow Styling",
+        "description": "Shaping and tinting for a neat look",
+        "options": {
+          "full": "Full service"
+        }
+      },
+      {
+        "title": "Eyebrow Shaping without Tint",
+        "description": "Gentle hair removal for a clean, defined shape",
+        "options": {
+          "basic": "Gentle removal"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "button": "Get a certificate",
+    "title": "Certificate request",
+    "descriptionRich": "You can request a callback in WhatsApp or call us directly. Please also review our <link>privacy policy</link>.",
+    "placeholderName": "Your name",
+    "placeholderPhone": "Phone number",
+    "submit": "Send"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "address": "St. Petersburg, Moskovsky prospect 97A",
+    "hours": "Monday to Sunday, 12:00 PM – 10:00 PM",
+    "whatsapp": "WhatsApp",
+    "vk": "VK",
+    "telegram": "telegram"
+  },
+  "faceCare": {
+    "title": "Facial Care",
+    "services": [
+      {
+        "title": "Lymphatic / Classic Massage",
+        "description": "Gentle massage to reduce puffiness and improve microcirculation."
+      },
+      {
+        "title": "Sculpting Massage",
+        "description": "Deep muscle work for a lifting effect."
+      },
+      {
+        "title": "Massage, Scrub, Mask",
+        "description": "Complete facial care: cleansing and nourishment."
+      },
+      {
+        "title": "Massage, Mask",
+        "description": "Quick treatment for hydration and recovery."
+      },
+      {
+        "title": "Cosmetic Peel",
+        "description": "Acne, enlarged pores, couperose, hyperkeratosis, small scars."
+      },
+      {
+        "title": "Mechanical Cleaning",
+        "description": "Cosmetic exfoliation of dead skin cells."
+      },
+      {
+        "title": "Fractional Care",
+        "description": "Deep skin renewal with cell regeneration."
+      }
+    ]
+  },
+  "hairServices": {
+    "title": "Hair Care",
+    "services": [
+      {
+        "title": "Hair wash & styling (iron / curling / brushing)",
+        "description": "Full service: washing and styling with iron, curler, or brush.",
+        "options": {
+          "short": "Short hair to shoulders",
+          "medium": "To shoulder blades",
+          "long": "Below shoulder blades"
+        }
+      },
+      {
+        "title": "Dry hair brushing",
+        "description": "Brushing dry hair to add volume and shape.",
+        "options": {
+          "short": "Short hair",
+          "shortComplex": "Short hair (complex)",
+          "medium": "To shoulder blades",
+          "mediumComplex": "To shoulder blades (complex)",
+          "long": "Below shoulder blades",
+          "longComplex": "Below shoulder blades (complex)"
+        }
+      },
+      {
+        "title": "Hair hydration",
+        "description": "Deep hydration to restore softness and shine.",
+        "options": {
+          "short": "Short hair",
+          "medium": "To shoulder blades",
+          "long": "Below shoulder blades"
+        }
+      },
+      {
+        "title": "Hair repair",
+        "description": "Intensive repair for damaged hair structure.",
+        "options": {
+          "short": "Short hair",
+          "medium": "To shoulder blades",
+          "long": "Below shoulder blades"
+        }
+      },
+      {
+        "title": "Ends trimming",
+        "description": "Trimming split ends for a healthy look.",
+        "options": {
+          "all": "All lengths"
+        }
+      }
+    ]
+  },
+  "massages": {
+    "title": "Body Care",
+    "classic": {
+      "title": "Classic",
+      "description": "Relax and let your muscles reach complete calm."
+    },
+    "lymph": {
+      "title": "Lymphatic",
+      "description": "This treatment focuses on increasing oxygen flow and flushing out toxins from the muscles."
+    },
+    "sport": {
+      "title": "Sports",
+      "description": "Goes deep into muscle tissue and helps relieve pain."
+    },
+    "sultan": {
+      "title": "Sultan",
+      "description": "Unique 4-hand procedure with scrub and mask. Two hours of pleasure and complete relaxation."
+    },
+    "local": {
+      "title": "Local",
+      "description": "Relieve tension and stress by focusing on a specific area!"
+    },
+    "spa": {
+      "title": "SPA Programs",
+      "description": "We offer 3 SPA program options for one or two people, including wraps, scrubs, and various masks."
+    },
+    "author": {
+      "title": "Signature treatment",
+      "description": "A unique technique from the therapist tailored for your body."
+    },
+    "shvz": {
+      "title": "Neck + back",
+      "description": "Focus on neck and upper back areas."
+    },
+    "aroma": {
+      "title": "Aroma Oil (handmade candles)",
+      "description": "Aromatherapy care using massage candles."
+    },
+    "focused": {
+      "title": "Localized treatment (legs, hands, head)",
+      "description": "Targeted work on specific areas."
+    },
+    "scrub": {
+      "title": "Body scrubbing",
+      "description": "Deep skin cleansing with material of your choice."
+    },
+    "wrap": {
+      "title": "Body wrapping",
+      "description": "Nourishing wraps of your choice."
+    },
+    "stone": {
+      "title": "Stone therapy",
+      "description": "Hot stones for deep muscle warming."
+    }
+  },
+  "specialOffers": {
+    "title": "Cedar Barrels & SPA Programs",
+    "offers": [
+      {
+        "title": "Cedar barrel — 1 person",
+        "description": "Classic phyto-sauna treatment for one guest."
+      },
+      {
+        "title": "Cedar barrel — 2 persons",
+        "description": "Steam treatment for two guests at once."
+      },
+      {
+        "title": "Cedar barrel + body care",
+        "description": "Cedar barrel – 30 minutes, body care – 60 minutes.",
+        "durationLabel": "60–90 minutes"
+      },
+      {
+        "title": "Cedar barrel + body + facial care",
+        "description": "Full SPA treatment for body and face."
+      },
+      {
+        "title": "Comprehensive SPA treatment",
+        "description": "Body care + scrub + wrap."
+      },
+      {
+        "title": "Anti-cellulite",
+        "description": "Scrub, wrap, body care."
+      },
+      {
+        "title": "Slim with pleasure",
+        "description": "Cedar barrel, bath, scrub, care, wrap, tea ceremony."
+      },
+      {
+        "title": "Relaxing",
+        "description": "Scrubbing, wrapping, classic body treatment."
+      }
+    ]
+  },
+  "footer": {
+    "nav": {
+      "services": "Services",
+      "specialOffers": "Special Offers",
+      "reviews": "Reviews",
+      "contacts": "Contacts"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "address": "St. Petersburg, Moskovsky prospect 97A",
+      "hours": "12:00 PM – 10:00 PM",
+      "phone": "Phone: +7 (950) 038-41-35"
+    },
+    "social": {
+      "title": "We are on social media"
+    },
+    "rights": "All rights reserved."
+  },
+  "header": {
+    "nav": {
+      "services": "Services",
+      "specialOffers": "Special Offers",
+      "reviews": "Reviews",
+      "contacts": "Contacts"
+    }
+  },
+  "booking": {
+    "title": "Would you like to book?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "privacy": {
+    "title": "Personal Data Processing Policy",
+    "intro": "This personal data processing policy has been prepared in accordance with the requirements of Federal Law No. 152-FZ dated July 27, 2006 'On Personal Data' and defines the procedure for processing personal data and measures to ensure the security of personal data taken by individual entrepreneur Nesterova Tatyana Eduardovna.",
+    "purpose": "The purpose of this policy is to ensure the protection of human and civil rights and freedoms when processing their personal data.",
+    "applies": "This policy applies to all information that the Operator may receive about visitors to the https://olympspa.ru website.",
+    "definitions_intro": "Key terms used in the Policy:",
+    "definitionsText": "2.1. Automated processing – processing using computing equipment.\n2.2. Blocking – temporary suspension of personal data processing.\n2.3. Website – https://olympspa.ru and all its content.\n2.4. Information system – databases and IT tools used to process data.\n2.5. Anonymization – actions that make it impossible to identify the data subject.\n2.6. Processing – any actions with personal data: collection, storage, transmission, etc.\n2.7. Operator – the person who determines the purpose and scope of personal data processing.\n2.8. Personal data – information related to a website user.\n2.9. Publicly available data – data permitted by the subject for dissemination.\n2.10. User – any visitor of the https://olympspa.ru website.\n2.11. Provision – actions aimed at disclosing personal data.\n2.12. Dissemination – disclosure of data to an unlimited number of persons.\n2.13. Cross-border transfer – transfer of data outside the Russian Federation.\n2.14. Destruction – actions leading to complete and irreversible loss of data.",
+    "operator_rights": "The Operator has the right to:",
+    "operator_rights_text": "3.1. The Operator has the right to:\n— Obtain reliable information from the data subject.\n— Continue processing without consent if there are legal grounds.\n— Independently determine necessary measures to comply with the law.",
+    "operator_duties": "The Operator must:",
+    "operator_duties_text": "3.2. The Operator must:\n— Provide the data subject with information about their data.\n— Organize data processing in accordance with Russian law.\n— Respond to data subject requests.\n— Inform the authorized authority upon request.\n— Publish this Policy in open access.\n— Take measures to protect data from unauthorized access.\n— Cease processing and destroy data when necessary.\n— Fulfill other obligations established by law.",
+    "agreeText": "I have read and agree to the privacy policy.",
+    "confirm": "Confirm"
   }
 }

@@ -1,28 +1,71 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import SpecialOffersList from "../specialOffersList/SpecialOffersList";
 
 const SpecialOffersBlock = () => {
+  const t = useTranslations("specialOffers");
+  const d = useTranslations("duration");
+
   const offers = [
     {
-      image: "/offer1.jpg", // Проверь, что файлы загружены в `public`
-      title: "Весенний релакс",
-      description:
-        "Скидка на массажи весной! Расслабьтесь и восстановите силы.",
-      prices: [
-        { time: "60 минут", cost: 3500 },
-        { time: "90 минут", cost: 5000 },
-      ],
+      image: "/specialOffers/kedr2.jpg",
+      title: t("offers.0.title"),
+      description: t("offers.0.description"),
+      prices: [{ time: d("30"), cost: 1800 }],
     },
-    // Добавь ещё карточки
+    {
+      image: "/specialOffers/dvebochki.jpg",
+      title: t("offers.1.title"),
+      description: t("offers.1.description"),
+      prices: [{ time: d("30"), cost: 2800 }],
+    },
+    {
+      image: "/specialOffers/kedr1.jpg",
+      title: t("offers.2.title"),
+      description: t("offers.2.description"),
+      prices: [{ time: t("offers.2.durationLabel"), cost: 5800 }],
+    },
+    {
+      image: "/specialOffers/bochka.jpg",
+      title: t("offers.3.title"),
+      description: t("offers.3.description"),
+      prices: [{ time: d("120"), cost: 9500 }],
+    },
+    {
+      image: "/specialOffers/complex.jpg",
+      title: t("offers.4.title"),
+      description: t("offers.4.description"),
+      prices: [{ time: d("150"), cost: 12800 }],
+    },
+    {
+      image: "/specialOffers/anticelulit.jpg",
+      title: t("offers.5.title"),
+      description: t("offers.5.description"),
+      prices: [{ time: d("120"), cost: 11500 }],
+    },
+    {
+      image: "/specialOffers/hudeem.jpg",
+      title: t("offers.6.title"),
+      description: t("offers.6.description"),
+      prices: [{ time: d("200"), cost: 15000 }],
+    },
+    {
+      image: "/specialOffers/rasslab.jpg",
+      title: t("offers.7.title"),
+      description: t("offers.7.description"),
+      prices: [{ time: d("200"), cost: 15000 }],
+    },
   ];
 
   return (
-    <section className="container mx-auto py-12">
-      <h2 className="text-2xl font-bold text-green-900 text-center mb-8">
-        Специальные предложения
-      </h2>
-      <SpecialOffersList offers={offers} />
+    <section className="bg-[#1F1D1A] py-12">
+      <div className="container mx-auto px-4">
+        <h2 id="special-offers" className="mb-8 text-center text-2xl font-bold text-[#C8A96A]">
+          {t("title")}
+        </h2>
+        <SpecialOffersList offers={offers} />
+      </div>
     </section>
   );
 };

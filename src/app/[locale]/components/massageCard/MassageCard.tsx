@@ -1,35 +1,58 @@
 "use client";
 
 import Image from "next/image";
+import { useState } from "react";
 import { MassageType } from "../../models/MassageType";
+import ConfirmBookingModal from "../ui/ConfirmBookingModal";
 
 interface MassageCardProps {
   massage: MassageType;
 }
 
 const MassageCard: React.FC<MassageCardProps> = ({ massage }) => {
+  const [showConfirm, setShowConfirm] = useState(false);
+
+  const handleCardClick = () => {
+    setShowConfirm(true);
+  };
+
+  const handleConfirm = () => {
+    setShowConfirm(false);
+    window.location.href = "/booking"; // ← замени на нужный маршрут
+  };
+
+  const handleCancel = () => {
+    setShowConfirm(false);
+  };
+
   return (
-    <div className="flex flex-col bg-[#F5EDE1] p-6 rounded-lg shadow-md transition-transform duration-300 hover:scale-105">
+    <div
+      className="relative flex cursor-pointer flex-col rounded-lg bg-[#2A2723] p-6 font-helvetica shadow-lg"
+      onClick={() => {
+        if (!showConfirm) handleCardClick();
+      }}
+    >
       {/* Изображение */}
-      <div className="w-full mb-4">
-        <Image
-          src={massage.image}
-          alt={massage.title}
-          width={300}
-          height={200}
-          className="rounded-lg w-full"
-        />
+      <div className="mb-4 w-full">
+        {massage.image ? (
+          <Image
+            src={massage.image}
+            alt={massage.title}
+            width={400}
+            height={300}
+            className="h-[300px] w-full rounded-lg object-cover object-center"
+          />
+        ) : (
+          <div className="h-[300px] w-full rounded-lg bg-[#3A3632]" />
+        )}
       </div>
 
       {/* Текст и цены */}
       <div className="flex flex-col justify-center text-center">
-        <h3 className="text-xl font-semibold text-green-900 mb-2">
-          {massage.title}
-        </h3>
-        <p className="text-gray-700 text-sm mb-4">{massage.description}</p>
+        <h3 className="mb-2 text-xl font-semibold text-[#C8A96A]">{massage.title}</h3>
+        <p className="mb-4 text-sm text-[#EDEAE4]">{massage.description}</p>
 
-        {/* Блок цен */}
-        <div className="grid grid-cols-2 gap-x-8 text-green-900 font-medium">
+        <div className="flex flex-col gap-1 font-medium text-[#A8C3A0]">
           {massage.prices.map((price, index) => (
             <div key={index} className="flex justify-between">
               <span>{price.time}</span>
@@ -38,6 +61,9 @@ const MassageCard: React.FC<MassageCardProps> = ({ massage }) => {
           ))}
         </div>
       </div>
+
+      {/* Модалка подтверждения */}
+      {showConfirm && <ConfirmBookingModal onConfirm={handleConfirm} onCancel={handleCancel} />}
     </div>
   );
 };

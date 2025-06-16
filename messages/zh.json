@@ -1,0 +1,331 @@
+{
+  "greeting": {
+    "title": "Olymp Spa",
+    "subtitle": "美丽帝国",
+    "paragraph1": "OLYMP 不仅仅是一个水疗中心，它是一个放松和自我关怀的真正绿洲，位于“莫斯科之门”酒店内。",
+    "paragraph2": "我们提供多种护理项目，包括经典、运动、抗橘皮按摩，以及由两位专业技师四手同步进行的独特“苏丹”仪式。",
+    "paragraph3": "按摩后，可继续享受雪松桶疗程。我们还提供美发和眉睫服务，为您的蜕变画上完美句号。",
+    "paragraph4": "在 OLYMP 沙龙感受温暖、舒适与平静的氛围。"
+  },
+  "duration": {
+    "30": "30分钟",
+    "60": "60分钟",
+    "90": "90分钟",
+    "120": "120分钟",
+    "150": "150分钟",
+    "200": "200分钟"
+  },
+  "browServices": {
+    "title": "眉毛和睫毛服务",
+    "services": [
+      {
+        "title": "睫毛染色",
+        "description": "打造生动色彩与浓密效果。",
+        "options": {
+          "advanced": "标准"
+        }
+      },
+      {
+        "title": "睫毛提升",
+        "description": "增强并卷翘睫毛。",
+        "options": {
+          "standard": "标准"
+        }
+      },
+      {
+        "title": "双重睫毛提升",
+        "description": "提供最大护理与浓密度。",
+        "options": {
+          "double": "双重"
+        }
+      },
+      {
+        "title": "眉型修整 + 染色",
+        "description": "根据脸型打造眉型与颜色。",
+        "options": {
+          "full": "全套服务"
+        }
+      },
+      {
+        "title": "漂色 + 染色 + 修整",
+        "description": "全面眉部护理：漂色、染色、造型。",
+        "options": {
+          "combo": "组合"
+        }
+      },
+      {
+        "title": "持久定型 + 修整 + 染色",
+        "description": "实现长效完美眉型。",
+        "options": {
+          "care": "全护理"
+        }
+      },
+      {
+        "title": "单独眉毛染色",
+        "description": "快速刷新颜色。",
+        "options": {
+          "noCorrection": "不含修整"
+        }
+      },
+      {
+        "title": "面部脱毛",
+        "description": "移除一个区域的多余毛发。",
+        "options": {
+          "zone1": "1 个区域"
+        }
+      },
+      {
+        "title": "男士眉型设计",
+        "description": "修整和染色，打造整洁外观。",
+        "options": {
+          "full": "全套服务"
+        }
+      },
+      {
+        "title": "纯修眉服务",
+        "description": "温和去除多余眉毛，塑造完美眉形。",
+        "options": {
+          "basic": "温和去除眉毛"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "button": "获取证书",
+    "title": "申请证书",
+    "descriptionRich": "您可以通过 WhatsApp 请求回电，或直接致电我们。也请查看我们的<link>隐私政策</link>。",
+    "placeholderName": "您的姓名",
+    "placeholderPhone": "电话号码",
+    "submit": "发送"
+  },
+  "contacts": {
+    "title": "联系方式",
+    "address": "圣彼得堡，莫斯科大街 97A",
+    "hours": "周一至周日，12:00 – 22:00",
+    "whatsapp": "WhatsApp",
+    "vk": "VK",
+    "telegram": "telegram"
+  },
+  "faceCare": {
+    "title": "面部护理",
+    "services": [
+      {
+        "title": "淋巴 / 经典按摩",
+        "description": "温和按摩，减少浮肿并改善微循环。"
+      },
+      {
+        "title": "雕塑按摩",
+        "description": "深层肌肉刺激，提升紧致效果。"
+      },
+      {
+        "title": "按摩 + 去角质 + 面膜",
+        "description": "全面面部护理：清洁与滋养。"
+      },
+      {
+        "title": "按摩 + 面膜",
+        "description": "快速补水与恢复护理。"
+      },
+      {
+        "title": "化学焕肤",
+        "description": "治疗痤疮、毛孔粗大、红血丝、角质过厚、小疤痕。"
+      },
+      {
+        "title": "机械清洁",
+        "description": "去除角质死皮的美容清洁。"
+      },
+      {
+        "title": "分层护理",
+        "description": "细胞再生的深层肌肤修复。"
+      }
+    ]
+  },
+  "hairServices": {
+    "title": "头发护理",
+    "services": [
+      {
+        "title": "洗发 & 造型（直板夹 / 卷发棒 / 圆梳）",
+        "description": "完整服务：洗发并使用造型工具造型。",
+        "options": {
+          "short": "短发（肩部）",
+          "medium": "中长发（至肩胛）",
+          "long": "长发（肩胛以下）"
+        }
+      },
+      {
+        "title": "干发造型（圆梳）",
+        "description": "为干发打造蓬松造型。",
+        "options": {
+          "short": "短发",
+          "shortComplex": "短发（复杂）",
+          "medium": "中长发",
+          "mediumComplex": "中长发（复杂）",
+          "long": "长发",
+          "longComplex": "长发（复杂）"
+        }
+      },
+      {
+        "title": "深层补水护理",
+        "description": "恢复发丝柔软与光泽。",
+        "options": {
+          "short": "短发",
+          "medium": "中长发",
+          "long": "长发"
+        }
+      },
+      {
+        "title": "头发修复",
+        "description": "修复受损发质结构。",
+        "options": {
+          "short": "短发",
+          "medium": "中长发",
+          "long": "长发"
+        }
+      },
+      {
+        "title": "发梢修剪",
+        "description": "修剪分叉发尾，让发丝更健康。",
+        "options": {
+          "all": "所有长度"
+        }
+      }
+    ]
+  },
+  "massages": {
+    "title": "我们的按摩",
+    "classic": {
+      "title": "经典按摩",
+      "description": "放松身体，让肌肉完全释放。"
+    },
+    "lymph": {
+      "title": "淋巴按摩",
+      "description": "增强氧气流动，排出肌肉毒素。"
+    },
+    "sport": {
+      "title": "运动按摩",
+      "description": "深入肌肉组织，缓解疼痛。"
+    },
+    "sultan": {
+      "title": "苏丹按摩",
+      "description": "四手同步，搭配去角质与面膜，带来两小时极致放松体验。"
+    },
+    "local": {
+      "title": "局部按摩",
+      "description": "专注处理紧张部位，缓解压力。"
+    },
+    "spa": {
+      "title": "SPA 项目",
+      "description": "为单人或双人提供 3 种 SPA 选择，包括裹敷、去角质与面膜等服务。"
+    },
+    "author": {
+      "title": "特色护理",
+      "description": "根据您的身体量身定制的独特手法。"
+    },
+    "shvz": {
+      "title": "颈部 + 背部",
+      "description": "重点处理颈部和上背区域。"
+    },
+    "aroma": {
+      "title": "芳香精油（手工蜡烛）",
+      "description": "使用按摩蜡烛进行芳香疗法护理。"
+    },
+    "focused": {
+      "title": "局部护理（腿部、手部、头部）",
+      "description": "针对特定区域的集中护理。"
+    },
+    "scrub": {
+      "title": "身体去角质",
+      "description": "使用您选择的材料进行深层清洁。"
+    },
+    "wrap": {
+      "title": "身体裹敷",
+      "description": "使用您选择的营养裹敷护理。"
+    },
+    "stone": {
+      "title": "石疗",
+      "description": "热石深层加热肌肉。"
+    }
+  },
+  "specialOffers": {
+    "title": "雪松桶 & SPA 项目",
+    "offers": [
+      {
+        "title": "雪松桶 — 单人",
+        "description": "经典单人草本蒸汽疗法。"
+      },
+      {
+        "title": "雪松桶 — 双人",
+        "description": "双人同步蒸汽护理。"
+      },
+      {
+        "title": "雪松桶 + 身体护理",
+        "description": "雪松桶疗程 – 30 分钟，身体护理 – 60 分钟。",
+        "durationLabel": "60–90 分钟"
+      },
+      {
+        "title": "雪松桶 + 身体 + 面部护理",
+        "description": "全面身体与面部 SPA 护理。"
+      },
+      {
+        "title": "全身 SPA 护理",
+        "description": "身体护理 + 去角质 + 裹敷。"
+      },
+      {
+        "title": "抗橘皮项目",
+        "description": "去角质 + 裹敷 + 护理。"
+      },
+      {
+        "title": "愉悦瘦身方案",
+        "description": "雪松桶 + 泡澡 + 去角质 + 护理 + 裹敷 + 茶道仪式。"
+      },
+      {
+        "title": "放松项目",
+        "description": "去角质 + 裹敷 + 经典身体护理。"
+      }
+    ]
+  },
+  "footer": {
+    "nav": {
+      "services": "服务项目",
+      "specialOffers": "特别优惠",
+      "reviews": "客户评价",
+      "contacts": "联系方式"
+    },
+    "contacts": {
+      "title": "联系方式",
+      "address": "圣彼得堡，莫斯科大街 97A",
+      "hours": "12:00 – 22:00",
+      "phone": "电话：+7 (950) 038-41-35"
+    },
+    "social": {
+      "title": "关注我们"
+    },
+    "rights": "版权所有"
+  },
+  "header": {
+    "nav": {
+      "services": "服务项目",
+      "specialOffers": "特别优惠",
+      "reviews": "客户评价",
+      "contacts": "联系方式"
+    }
+  },
+  "booking": {
+    "title": "您想预订吗？",
+    "yes": "是",
+    "no": "否"
+  },
+  "privacy": {
+    "title": "个人数据处理政策",
+    "intro": "本个人数据处理政策根据2006年7月27日第152-ФЗ号《个人数据法》的要求制定，规定了个体企业主塔季扬娜·爱杜阿尔多芙娜·涅斯捷洛娃处理个人数据的程序和保障个人数据安全的措施。",
+    "purpose": "本政策的目的是保障个人在其个人数据被处理过程中的权利和自由。",
+    "applies": "本政策适用于运营方可能通过网站 https://olympspa.ru 获取的所有访客信息。",
+    "definitions_intro": "本政策中使用的主要术语：",
+    "definitionsText": "2.1. 自动化处理 – 使用计算设备进行的数据处理。\n2.2. 阻止 – 暂时停止个人数据的处理。\n2.3. 网站 – https://olympspa.ru 及其所有内容。\n2.4. 信息系统 – 用于处理数据的数据库和IT工具。\n2.5. 匿名化 – 使无法识别数据主体的操作。\n2.6. 处理 – 与个人数据的任何操作：收集、存储、传输等。\n2.7. 运营方 – 确定处理目的和范围的个人或组织。\n2.8. 个人数据 – 与网站用户有关的信息。\n2.9. 公开数据 – 数据主体同意公开的数据。\n2.10. 用户 – 任何访问 https://olympspa.ru 网站的人。\n2.11. 提供 – 向特定人或特定范围人群披露数据的操作。\n2.12. 发布 – 向不特定人群披露数据。\n2.13. 跨境传输 – 将数据传输至俄罗斯联邦以外。\n2.14. 销毁 – 使数据完全且不可恢复地丢失的操作。",
+    "operator_rights": "运营方有权：",
+    "operator_rights_text": "3.1. 运营方有权：\n— 从数据主体处获得真实的信息；\n— 在有法律依据的情况下在未获得同意的情况下继续处理数据；\n— 自主决定为遵守法律所需的措施。",
+    "operator_duties": "运营方的义务：",
+    "operator_duties_text": "3.2. 运营方必须：\n— 向数据主体提供有关其数据的信息；\n— 按照俄罗斯法律组织数据处理；\n— 回应数据主体的请求；\n— 按照要求向主管机关提供信息；\n— 公开本政策以供自由访问；\n— 采取措施防止未经授权访问数据；\n— 必要时停止处理并销毁数据；\n— 履行法律规定的其他义务。",
+    "agreeText": "我已阅读并同意隐私政策。",
+    "confirm": "确认"
+  }
+}

@@ -12,25 +12,22 @@ const ReviewsBlock = () => {
       text: "Массаж просто супер! Чувствую себя отдохнувшим и обновлённым.",
       rating: 4,
     },
-    // Добавь ещё отзывы
+    // Можно добавить кастомные отзывы
   ];
 
   return (
-    <section className="container mx-auto py-12 flex flex-col items-center">
-      <h2 className="text-2xl font-bold text-green-900 text-center mb-8">
-        Отзывы
-      </h2>
+    <section id="reviews" className="flex flex-col items-center bg-[#1F1D1A] px-4 py-12">
+      <h2 className="mb-8 text-center text-2xl font-bold text-[#C8A96A]">Отзывы</h2>
 
       {/* Виджет отзывов Яндекса */}
-      <div className="w-full max-w-3xl mt-12">
+      <div className="mt-12 w-full max-w-3xl overflow-hidden rounded-lg border border-[#35312D] bg-[#2A2723]">
         <iframe
           src="https://yandex.ru/maps-reviews-widget/28584245915?comments"
-          width="95%"
+          width="100%"
           height="700"
           style={{
-            border: "1px solid #e6e6e6",
-            borderRadius: "8px",
-            boxSizing: "border-box",
+            border: "none",
+            display: "block",
           }}
           allowFullScreen
           loading="lazy"

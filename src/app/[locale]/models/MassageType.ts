@@ -1,8 +1,10 @@
-import { MassagePrice } from "./MassagePrice";
-
+// models/MassageType.ts
 export interface MassageType {
   image: string;
   title: string;
   description: string;
-  prices: MassagePrice[];
+  prices: {
+    time: string;
+    cost: number;
+  }[];
 }

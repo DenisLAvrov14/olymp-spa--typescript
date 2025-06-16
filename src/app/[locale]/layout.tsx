@@ -5,29 +5,42 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Roboto } from "next/font/google";
 import Header from "./components/header/Header";
+import type { ReactNode } from "react";
 
 const roboto = Roboto({ subsets: ["cyrillic"], weight: ["400", "700"] });
 
+// ✅ Указываем метаинформацию — favicon + заголовок
+export const metadata = {
+  title: "OLYMP SPA",
+  icons: {
+    icon: "/favicon.png",
+  },
+};
+
+// ✅ Генерация статических маршрутов для /en /ru /zh и т.д.
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   params: { locale: string };
 }) {
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
+  const { locale } = params;
+
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
   }
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={roboto.className}>
       <body>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}
         </NextIntlClientProvider>

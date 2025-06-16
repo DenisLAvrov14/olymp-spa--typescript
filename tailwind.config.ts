@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,7 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        helvetica: ["Helvetica Regular", "sans-serif"],
+        helveticaBoldItalic: ["Helvetica Bold Oblique", "sans-serif"],
+        martina: ["Martina Script", "cursive"],
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
-} satisfies Config;
+};
+
+export default config;

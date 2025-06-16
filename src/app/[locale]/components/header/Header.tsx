@@ -2,86 +2,49 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { usePathname } from "next/navigation";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [lang, setLang] = useState("RU");
+  const pathname = usePathname();
+  const currentLocale = pathname?.split("/")[1] || "ru";
 
   return (
-    <header className="w-full bg-white shadow-md fixed top-0 left-0 z-50 py-2 transition-all duration-300">
-      <div className="container mx-auto flex justify-between items-center">
+    <header
+      className={`fixed inset-x-0 top-0 z-50 w-full border-b border-[#35312D] bg-[#1F1D1A] py-2 shadow-md transition-all duration-300 sm:py-3`}
+    >
+      <div className="container mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8">
         {/* Логотип */}
-        <Link href="/">
+        <Link href={`/${currentLocale}`}>
           <Image
             src="/logo.png"
             alt="Logo"
             width={70}
             height={30}
-            className="transition-transform duration-300 hover:scale-105"
+            className="transition-transform duration-300"
           />
         </Link>
 
-        {/* Навигация */}
-        <nav className="hidden md:flex space-x-6">
-          <Link
-            href="/services"
-            className="text-gray-700 hover:text-black transition-colors duration-300 relative after:block after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-black after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
-          >
-            Услуги
-          </Link>
-          <Link
-            href="/special-offers"
-            className="text-gray-700 hover:text-black transition-colors duration-300 relative after:block after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-black after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
-          >
-            Особые предложения
-          </Link>
-          <Link
-            href="/reviews"
-            className="text-gray-700 hover:text-black transition-colors duration-300 relative after:block after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-black after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
-          >
-            Отзывы
-          </Link>
-          <Link
-            href="/contact"
-            className="text-gray-700 hover:text-black transition-colors duration-300 relative after:block after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-black after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
-          >
-            Контакты
-          </Link>
+        {/* Навигация (скрыта на mobile) */}
+        <nav className="hidden space-x-4 sm:space-x-6 md:flex lg:space-x-8">
+          {[
+            { href: "#services", label: currentLocale === "ru" ? "Услуги" : "Services" },
+            { href: "#about", label: currentLocale === "ru" ? "О нас" : "About" },
+            { href: "#reviews", label: currentLocale === "ru" ? "Отзывы" : "Reviews" },
+            { href: "#contact", label: currentLocale === "ru" ? "Контакты" : "Contacts" },
+          ].map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className={`relative text-sm text-[#EDEAE4] transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-[#C8A96A] after:transition-transform after:duration-300 hover:text-[#C8A96A] hover:after:scale-x-100 sm:text-base`}
+            >
+              {link.label}
+            </a>
+          ))}
         </nav>
 
         {/* Переключатель языка */}
-        <div className="relative">
-          <button
-            className="flex items-center text-gray-700 hover:text-black transition-colors duration-300"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {lang} <ChevronDown size={16} className="ml-1" />
-          </button>
-          {isOpen && (
-            <div className="absolute right-0 mt-2 w-32 bg-white shadow-md rounded-md transition-all duration-300">
-              <button
-                className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-                onClick={() => {
-                  setLang("RU");
-                  setIsOpen(false);
-                }}
-              >
-                Русский
-              </button>
-              <button
-                className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 transition-colors duration-300"
-                onClick={() => {
-                  setLang("EN");
-                  setIsOpen(false);
-                }}
-              >
-                English
-              </button>
-            </div>
-          )}
-        </div>
+        <LanguageSwitcher />
       </div>
     </header>
   );

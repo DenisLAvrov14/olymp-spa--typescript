@@ -9,7 +9,7 @@ interface SpecialOffersListProps {
 
 const SpecialOffersList: React.FC<SpecialOffersListProps> = ({ offers }) => {
   return (
-    <div className="grid grid-cols-1 gap-8 p-8 md:max-w-4xl mx-auto">
+    <div className="mx-auto grid grid-cols-1 gap-8 px-4 md:max-w-4xl md:px-8">
       {offers.map((offer, index) => (
         <SpecialOfferCard key={index} offer={offer} />
       ))}
