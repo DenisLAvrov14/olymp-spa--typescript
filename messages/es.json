@@ -1,0 +1,358 @@
+{
+  "greeting": {
+    "title": "Olimpo Spa",
+    "subtitle": "Imperio de belleza",
+    "paragraph1": "OLIMP no es solo un centro de spa, sino un verdadero oasis de relajación y cuidado personal ubicado en el hotel \"Moscow Gates\".",
+    "paragraph2": "Ofrecemos diversos programas de cuidado, incluyendo masajes clásicos, deportivos, anticelulíticos, así como el ritual único \"Sultán\" a cuatro manos, realizado por verdaderos expertos en su campo.",
+    "paragraph3": "Después de la sesión de masaje, puede continuar cuidándose en el barril de cedro. También ofrecemos servicios de peluquería y diseño de cejas para completar su transformación.",
+    "paragraph4": "Sienta la atmósfera de calidez, confort y tranquilidad en el salón OLIMP."
+  },
+  "duration": {
+    "30": "30 minutos",
+    "60": "60 minutos",
+    "90": "90 minutos",
+    "120": "120 minutos",
+    "150": "150 minutos",
+    "200": "200 minutos"
+  },
+  "browServices": {
+    "title": "Servicios de diseño de cejas",
+    "services": [
+      {
+        "title": "Tinte de pestañas",
+        "description": "Color expresivo y mirada intensa.",
+        "options": {
+          "advanced": "Estándar"
+        }
+      },
+      {
+        "title": "Laminado de pestañas",
+        "description": "Lifting visual de pestañas o mirada natural.",
+        "options": {
+          "standard": "Estándar"
+        }
+      },
+      {
+        "title": "Doble laminado de pestañas",
+        "description": "Lifting/extra lifting de pestañas superiores e inferiores bajo pedido.",
+        "options": {
+          "double": "Doble"
+        }
+      },
+      {
+        "title": "Corrección + tinte de cejas",
+        "description": "Forma y color adaptados a su tipo de rostro.",
+        "options": {
+          "full": "Completo"
+        }
+      },
+      {
+        "title": "Aclarante + tinte + corrección",
+        "description": "Trabajo minucioso con cejas: aclarado, color, forma.",
+        "options": {
+          "combo": "Completo"
+        }
+      },
+      {
+        "title": "Peinado duradero + corrección + tinte",
+        "description": "Efecto prolongado de cejas perfectas.",
+        "options": {
+          "care": "Cuidado completo"
+        }
+      },
+      {
+        "title": "Tinte de cejas sin corrección",
+        "description": "Forma sencilla de renovar el color.",
+        "options": {
+          "noCorrection": "Sin corrección"
+        }
+      },
+      {
+        "title": "Depilación facial con cera",
+        "description": "Eliminación delicada de vello no deseado en una zona.",
+        "options": {
+          "zone1": "1 zona"
+        }
+      },
+      {
+        "title": "Diseño de cejas para hombres",
+        "description": "Corrección y tinte para una mirada cuidada.",
+        "options": {
+          "full": "Completo"
+        }
+      },
+      {
+        "title": "Corrección de cejas sin tinte",
+        "description": "Eliminación delicada de vello para dar forma bonita.",
+        "options": {
+          "basic": "Eliminación delicada de vello"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "button": "Solicitar certificado",
+    "title": "Solicitud de certificado",
+    "descriptionRich": "Puede solicitar una llamada de retorno por Whatsapp o llamarnos por teléfono. Le pedimos que lea previamente la <link>política de privacidad</link>.",
+    "placeholderName": "Su nombre",
+    "placeholderPhone": "Número de teléfono",
+    "submit": "Enviar"
+  },
+  "contacts": {
+    "title": "Contactos",
+    "address": "San Petersburgo, Prospekt Moskovskiy 97A",
+    "hours": "De lunes a domingo, de 12:00 a 22:00",
+    "whatsapp": "WhatsApp",
+    "vk": "VK",
+    "telegram": "Telegram"
+  },
+  "faceCare": {
+    "title": "Cuidado facial",
+    "services": [
+      {
+        "title": "Masaje linfático / clásico",
+        "description": "Masaje delicado para aliviar hinchazón y mejorar la microcirculación."
+      },
+      {
+        "title": "Masaje escultórico",
+        "description": "Trabajo profundo de los músculos faciales para efecto lifting."
+      },
+      {
+        "title": "Masaje, exfoliación, mascarilla",
+        "description": "Cuidado completo para la piel del rostro: limpieza y nutrición."
+      },
+      {
+        "title": "Masaje, mascarilla",
+        "description": "Cuidado rápido para restauración e hidratación."
+      },
+      {
+        "title": "Peeling cosmético",
+        "description": "Acné, poros dilatados, cuperosis, hiperqueratosis, cicatrices pequeñas."
+      },
+      {
+        "title": "Limpieza mecánica",
+        "description": "Exfoliación cosmética de piel muerta."
+      },
+      {
+        "title": "Cuidado fraccionado",
+        "description": "Restauración profunda con renovación celular."
+      }
+    ]
+  },
+  "hairServices": {
+    "title": "Cuidado del cabello",
+    "services": [
+      {
+        "title": "Lavado y peinado con plancha / rizador / cepillo",
+        "description": "Paquete completo: lavado y peinado usando plancha, rizador o cepillo.",
+        "options": {
+          "short": "Cabello corto hasta los hombros",
+          "medium": "Hasta los omóplatos",
+          "long": "Por debajo de los omóplatos"
+        }
+      },
+      {
+        "title": "Peinado de cabello seco con cepillo",
+        "description": "Peinado de cabello seco usando cepillo para dar volumen y forma.",
+        "options": {
+          "short": "Cabello corto",
+          "shortComplex": "Cabello corto (complejo)",
+          "medium": "Hasta los omóplatos",
+          "mediumComplex": "Hasta los omóplatos (complejo)",
+          "long": "Por debajo de los omóplatos",
+          "longComplex": "Por debajo de los omóplatos (complejo)"
+        }
+      },
+      {
+        "title": "Hidratación del cabello",
+        "description": "Hidratación profunda para restaurar suavidad y brillo.",
+        "options": {
+          "short": "Cabello corto",
+          "medium": "Hasta los omóplatos",
+          "long": "Por debajo de los omóplatos"
+        }
+      },
+      {
+        "title": "Restauración del cabello",
+        "description": "Restauración intensiva de la estructura del cabello dañado.",
+        "options": {
+          "short": "Cabello corto",
+          "medium": "Hasta los omóplatos",
+          "long": "Por debajo de los omóplatos"
+        }
+      },
+      {
+        "title": "Corte de puntas",
+        "description": "Corte de puntas abiertas para un cabello saludable.",
+        "options": {
+          "all": "Todas las longitudes"
+        }
+      }
+    ]
+  },
+  "massages": {
+    "title": "Cuidado corporal",
+    "classic": {
+      "title": "Clásico",
+      "description": "Relájese y permita que sus músculos alcancen la máxima calma."
+    },
+    "lymph": {
+      "title": "Drenaje linfático",
+      "description": "Este cuidado se centra en aumentar el flujo de oxígeno y eliminar toxinas de los músculos."
+    },
+    "sport": {
+      "title": "Deportivo",
+      "description": "Penetra profundamente en los tejidos musculares y ayuda a aliviar el dolor."
+    },
+    "sultan": {
+      "title": "Sultán",
+      "description": "Procedimiento único a 4 manos, exfoliación, mascarilla. 2 horas de placer y relajación total."
+    },
+    "local": {
+      "title": "Local",
+      "description": "Libere la tensión y el estrés, trabaje intensamente una zona específica."
+    },
+    "spa": {
+      "title": "Programas de SPA",
+      "description": "Ofrecemos 3 opciones de programas SPA para uno o dos, que incluyen cuidados, envolturas, exfoliaciones y diversos tipos de mascarillas."
+    },
+    "author": {
+      "title": "Cuidado exclusivo",
+      "description": "Técnica única de un maestro para su cuerpo."
+    },
+    "shvz": {
+      "title": "Cuello + espalda",
+      "description": "Trabajo en la zona cervical y dorsal."
+    },
+    "aroma": {
+      "title": "Aceite aromático (velas manuales)",
+      "description": "Cuidado de aromaterapia usando velas."
+    },
+    "focused": {
+      "title": "Cuidado localizado (piernas, brazos, cabeza)",
+      "description": "Trabajo focalizado en áreas específicas."
+    },
+    "scrub": {
+      "title": "Exfoliación",
+      "description": "Limpieza profunda de la piel corporal. Material a elegir."
+    },
+    "wrap": {
+      "title": "Envoltura",
+      "description": "Envolturas nutritivas para elegir."
+    },
+    "stone": {
+      "title": "Terapia con piedras",
+      "description": "Piedras calientes para calentar profundamente los músculos."
+    }
+  },
+  "specialOffers": {
+    "title": "Barriles de cedro y programas SPA",
+    "offers": [
+      {
+        "title": "Barril de cedro — 1 persona",
+        "description": "Procedimiento clásico de fitosauna para un huésped."
+      },
+      {
+        "title": "Barril de cedro — 2 personas",
+        "description": "Procedimiento para dos huéspedes simultáneamente."
+      },
+      {
+        "title": "Barril de cedro + cuidado corporal",
+        "description": "Barril - 30 minutos, cuidado corporal 60 minutos.",
+        "durationLabel": "60–90 minutos"
+      },
+      {
+        "title": "Barril de cedro + cuidado corporal + cuidado facial",
+        "description": "Procedimiento SPA completo con cuerpo y rostro."
+      },
+      {
+        "title": "Cuidado SPA integral",
+        "description": "Cuidado corporal + exfoliación + envoltura."
+      },
+      {
+        "title": "Programa SPA anticelulítico",
+        "description": "Exfoliación, envoltura, cuidado."
+      },
+      {
+        "title": "Adelgazamiento con placer",
+        "description": "Barril de cedro, baño, exfoliación, cuidado, envoltura, ceremonia del té."
+      },
+      {
+        "title": "Programa SPA relajante",
+        "description": "Exfoliación, envoltura, cuidado clásico."
+      }
+    ]
+  },
+  "footer": {
+    "nav": {
+      "services": "Servicios",
+      "specialOffers": "Ofertas",
+      "reviews": "Reseñas",
+      "contacts": "Contactos"
+    },
+    "contacts": {
+      "title": "Contactos",
+      "address": "San Petersburgo, Prospekt Moskovskiy 97A",
+      "hours": "De 12:00 a 22:00",
+      "phone": "Teléfono: +7 (950) 038-41-35"
+    },
+    "social": {
+      "title": "Estamos en redes sociales"
+    },
+    "rights": "Todos los derechos reservados."
+  },
+  "header": {
+    "nav": {
+      "services": "Servicios",
+      "about": "Sobre nosotros",
+      "reviews": "Reseñas",
+      "contacts": "Contactos"
+    }
+  },
+  "booking": {
+    "title": "¿Quieres reservar?",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "privacy": {
+    "title": "Política de privacidad y tratamiento de datos personales",
+    "intro": "Esta política de privacidad está redactada conforme a la Ley Federal № 152-FZ de fecha 27.07.2006 \"Sobre datos personales\" (en adelante, \"Ley de datos personales\") y define el procedimiento de tratamiento y las medidas de seguridad aplicadas por la empresaria individual Tatyana Eduardovna Nesterova (en adelante, \"Operador\").",
+    "intro_1_1": "1.1. El Operador tiene como objetivo principal y condición para el desarrollo de sus actividades el respeto a los derechos y libertades de las personas y ciudadanos en el tratamiento de sus datos personales, incluyendo la protección de la privacidad, la vida privada y familiar.",
+    "intro_1_2": "1.2. Esta política del Operador se aplica a toda la información que pueda obtener sobre los visitantes del sitio web https://olympspa.ru.",
+    "definitions_intro": "2. Conceptos básicos utilizados en la política",
+    "definitionsText": "2.1. Tratamiento automatizado de datos personales — tratamiento con ayuda de medios computacionales.\n2.2. Bloqueo de datos personales — suspensión temporal del tratamiento de datos (excepto para precisar datos).\n2.3. Sitio web — conjunto de materiales gráficos, informativos y bases de datos accesibles en la red en la dirección https://olympspa.ru.\n2.4. Sistema de información de datos personales — conjunto de bases y tecnologías de información para el tratamiento de datos personales.\n2.5. Anonimización de datos personales — acciones que imposibilitan identificar a un sujeto sin información adicional.\n2.6. Tratamiento de datos personales — cualquier acción con datos personales con o sin automatización, incluyendo recolección, registro, almacenamiento, actualización, uso, transmisión, anonimización, bloqueo, eliminación y destrucción.\n2.7. Operador — persona física o jurídica que organiza el tratamiento y determina objetivos y acciones sobre los datos.\n2.8. Datos personales — información relacionada directa o indirectamente con un usuario del sitio https://olympspa.ru.\n2.9. Datos accesibles públicamente — datos con consentimiento del sujeto para divulgación sin limitación.\n2.10. Usuario — cualquier visitante del sitio.\n2.11. Provisión de datos personales — acciones para revelar datos a personas específicas.\n2.12. Divulgación de datos personales — acciones para revelar datos a personas no específicas o al público.\n2.13. Transferencia transfronteriza — transferencia de datos a autoridades o personas extranjeras.\n2.14. Destrucción de datos — acciones para eliminar datos de forma irreversible.",
+    "operator_rights": "3. Derechos y obligaciones del operador",
+    "operator_rights_text": "3.1. Derechos del operador:\n— recibir información veraz del sujeto de datos;\n— continuar tratamiento sin consentimiento en caso de revocación si la ley lo permite;\n— determinar medidas para cumplir con la ley y reglamentos.\n",
+    "operator_duties": "3.2. Obligaciones del operador:",
+    "operator_duties_text": "— proporcionar información sobre el tratamiento a solicitud del sujeto;\n— organizar tratamiento conforme a la legislación vigente;\n— responder solicitudes de sujetos y representantes legales;\n— proporcionar información requerida a autoridades en 10 días;\n— publicar o garantizar acceso a la política;\n— tomar medidas para proteger los datos de accesos no autorizados, destrucción, modificación, bloqueo, copia y divulgación;\n— detener transmisión y destruir datos según la ley;\n— cumplir otras obligaciones legales.",
+    "section4_title": "4. Derechos y obligaciones de los sujetos de datos personales",
+    "section4_text": "4.1. Derechos de los sujetos:\n— recibir información sobre el tratamiento salvo excepciones legales;\n— exigir corrección, bloqueo o eliminación de datos incorrectos, desactualizados o innecesarios;\n— establecer consentimiento previo para marketing;\n— revocar consentimiento y exigir cese del tratamiento;\n— apelar acciones u omisiones del operador ante autoridades o tribunales;\n— ejercer otros derechos legales.\n4.2. Obligaciones de los sujetos:\n— proporcionar datos veraces;\n— informar sobre actualizaciones o cambios.\n4.3. Responsabilidad por datos falsos o sin consentimiento.",
+    "section5_title": "5. Principios de tratamiento de datos personales",
+    "section5_text": "5.1. Tratamiento legal y justo.\n5.2. Limitación a objetivos específicos y legales.\n5.3. No combinación de bases incompatibles.\n5.4. Tratamiento solo de datos pertinentes.\n5.5. No exceso de datos.\n5.6. Precisión, suficiencia y actualidad.\n5.7. Almacenamiento limitado y destrucción al cumplir objetivos.",
+    "section6_title": "6. Objetivos del tratamiento de datos personales",
+    "section6_text": "Objetivo — retroalimentación para reserva de servicios\nDatos personales — nombre, apellido, correo, teléfonos\nBase legal — Ley Federal № 152-FZ de 27.07.2006\nTipos de tratamiento — recopilación, registro, sistematización, almacenamiento, destrucción y anonimización",
+    "section7_title": "7. Condiciones del tratamiento de datos personales",
+    "section7_text": "7.1. Tratamiento con consentimiento del sujeto.\n7.2. Tratamiento para objetivos legales o acuerdos internacionales.\n7.3. Tratamiento para justicia y ejecución de actos legales.\n7.4. Tratamiento para contratos y acuerdos.\n7.5. Tratamiento para intereses legítimos.\n7.6. Tratamiento de datos accesibles públicamente.\n7.7. Tratamiento para obligaciones legales.",
+    "section8_title": "8. Procedimiento para la recopilación, almacenamiento, transferencia y otros tipos de tratamiento de datos personales",
+    "section8_text": "Seguridad mediante medidas legales, organizativas y técnicas.\n8.1. Protección y restricción de acceso no autorizado.\n8.2. No transferencia a terceros salvo consentimiento o legalidad.\n8.3. Actualización por usuario mediante aviso.\n8.4. Período definido por objetivos o ley.\nConsentimiento puede ser revocado en cualquier momento.\n8.5. Datos de terceros sujetos a sus políticas.\n8.6. Excepciones para intereses públicos.\n8.7. Confidencialidad garantizada.\n8.8. Almacenamiento conforme a objetivos.\n8.9. Condiciones para fin de tratamiento.",
+    "section9_title": "9. Acciones realizadas por el operador con los datos personales recibidos",
+    "section9_text": "9.1. Recopilación, registro, sistematización, almacenamiento, actualización, uso, transferencia, anonimización, bloqueo, eliminación y destrucción.\n9.2. Tratamiento automatizado o manual.",
+    "section10_title": "10. Transferencia transfronteriza de datos personales",
+    "section10_text": "10.1. Notificación previa a autoridades competentes.\n10.2. Obtención de información de autoridades extranjeras antes de transferir.",
+    "section11_title": "11. Confidencialidad de los datos personales",
+    "section11_text": "El operador y terceros con acceso deben proteger los datos y no divulgarlos sin consentimiento salvo excepciones legales.",
+    "section12_title": "12. Disposiciones finales",
+    "section12_text": "12.1. Consultas al operador vía https://t.me/olympspa.\n12.2. Cambios en la política reflejados en este documento, vigente hasta actualización.\n12.3. Versión vigente disponible en https://olympspa.ru.",
+    "agreeText": "He leído y acepto la política de privacidad.",
+    "confirm": "Confirmar",
+    "error": "Por favor confirme su consentimiento para continuar."
+  },
+  "privacyWidget": {
+    "ariaLabel": "Política de privacidad",
+    "title": "Política de privacidad",
+    "header": "Política de privacidad",
+    "description": "Usamos datos para mejorar nuestro servicio. Lea más sobre la recopilación y el uso de datos en la ",
+    "linkText": "política de privacidad",
+    "closeButton": "Cerrar"
+  }
+}

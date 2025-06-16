@@ -18,18 +18,31 @@ export default function LanguageSwitcher() {
     setOpen(false);
   };
 
+  const locales = ["ru", "en", "zh", "hi", "tr", "es", "de"];
+
+  const localeNames: Record<string, string> = {
+    ru: "Русский",
+    en: "English",
+    zh: "中文",
+    hi: "हिन्दी",
+    tr: "Türkçe",
+    es: "Español",
+    de: "Deutsch",
+  };
+
   return (
     <div className="relative">
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center rounded bg-[#2A2723] px-3 py-1 text-[#EDEAE4] transition hover:text-[#C8A96A]"
       >
-        {currentLocale.toUpperCase()} <ChevronDown size={16} className="ml-1" />
+        {localeNames[currentLocale] || currentLocale.toUpperCase()}{" "}
+        <ChevronDown size={16} className="ml-1" />
       </button>
 
       {open && (
         <div className="absolute right-0 z-50 mt-2 w-28 rounded border border-[#3A3632] bg-[#2A2723] shadow-lg">
-          {["ru", "en", "zh"]
+          {locales
             .filter((code) => code !== currentLocale)
             .map((locale) => (
               <button
@@ -37,7 +50,7 @@ export default function LanguageSwitcher() {
                 onClick={() => changeLanguage(locale)}
                 className="block w-full px-4 py-2 text-left text-[#EDEAE4] transition hover:bg-[#3A3632]"
               >
-                {locale === "ru" ? "Русский" : locale === "en" ? "English" : "中文"}
+                {localeNames[locale] || locale.toUpperCase()}
               </button>
             ))}
         </div>

@@ -15,7 +15,7 @@ const PrivacyPolicyPage = () => {
 
   const handleConfirm = () => {
     if (agreed) {
-      router.back();
+      router.push("/");
     } else {
       alert(t("error"));
     }
@@ -27,15 +27,42 @@ const PrivacyPolicyPage = () => {
         <h1 className="mb-6 text-center text-3xl font-bold text-[#D9B382]">{t("title")}</h1>
 
         <p>{t("intro")}</p>
-        <p>{t("purpose")}</p>
-        <p>{t("applies")}</p>
 
         <h2>{t("definitions_intro")}</h2>
         <p className="whitespace-pre-line">{t("definitionsText")}</p>
 
+        <h2>{t("operator_rights")}</h2>
         <p className="whitespace-pre-line">{t("operator_rights_text")}</p>
 
+        <h2>{t("operator_duties")}</h2>
         <p className="whitespace-pre-line">{t("operator_duties_text")}</p>
+
+        <h2>{t("section4_title")}</h2>
+        <p className="whitespace-pre-line">{t("section4_text")}</p>
+
+        <h2>{t("section5_title")}</h2>
+        <p className="whitespace-pre-line">{t("section5_text")}</p>
+
+        <h2>{t("section6_title")}</h2>
+        <p className="whitespace-pre-line">{t("section6_text")}</p>
+
+        <h2>{t("section7_title")}</h2>
+        <p className="whitespace-pre-line">{t("section7_text")}</p>
+
+        <h2>{t("section8_title")}</h2>
+        <p className="whitespace-pre-line">{t("section8_text")}</p>
+
+        <h2>{t("section9_title")}</h2>
+        <p className="whitespace-pre-line">{t("section9_text")}</p>
+
+        <h2>{t("section10_title")}</h2>
+        <p className="whitespace-pre-line">{t("section10_text")}</p>
+
+        <h2>{t("section11_title")}</h2>
+        <p className="whitespace-pre-line">{t("section11_text")}</p>
+
+        <h2>{t("section12_title")}</h2>
+        <p className="whitespace-pre-line">{t("section12_text")}</p>
 
         <div className="mb-6 flex items-center">
           <input

@@ -1,0 +1,358 @@
+{
+  "greeting": {
+    "title": "Olimp Spa",
+    "subtitle": "Güzellik İmparatorluğu",
+    "paragraph1": "OLİMP sadece bir spa merkezi değil, \"Moskova Kapıları\" otelinin içinde yer alan gerçek bir rahatlama ve kendine bakım vahasıdır.",
+    "paragraph2": "Klasik, sportif, selülit karşıtı masajlar dahil olmak üzere çeşitli bakım programları sunuyoruz ve alanında gerçek ustalar tarafından gerçekleştirilen eşsiz 4 el \"Sultan\" ritüelimiz mevcuttur.",
+    "paragraph3": "Masaj seansından sonra sedir fıçısında bakımınıza devam edebilirsiniz. Ayrıca dönüşümünüzü tamamlamak için kuaför ve kaş tasarım hizmetleri de sunulmaktadır.",
+    "paragraph4": "OLİMP salonunda sıcaklık, konfor ve huzur atmosferini hissedin."
+  },
+  "duration": {
+    "30": "30 dakika",
+    "60": "60 dakika",
+    "90": "90 dakika",
+    "120": "120 dakika",
+    "150": "150 dakika",
+    "200": "200 dakika"
+  },
+  "browServices": {
+    "title": "Kaş Tasarım Hizmetleri",
+    "services": [
+      {
+        "title": "Kirpik Boyama",
+        "description": "İfade dolu renk ve bakışlarda yoğunluk.",
+        "options": {
+          "advanced": "Standart"
+        }
+      },
+      {
+        "title": "Kirpik Laminasyonu",
+        "description": "Kirpiklerde görsel kaldırma veya doğal bakış.",
+        "options": {
+          "standard": "Standart"
+        }
+      },
+      {
+        "title": "Çift Kirpik Laminasyonu",
+        "description": "İsteğe bağlı üst ve alt kirpiklerde kaldırma/extra kaldırma.",
+        "options": {
+          "double": "Çift"
+        }
+      },
+      {
+        "title": "Kaş Düzeltme + Boyama",
+        "description": "Yüz tipinize uygun şekil ve renk.",
+        "options": {
+          "full": "Tam Kompleks"
+        }
+      },
+      {
+        "title": "Açma + Boyama + Düzeltme",
+        "description": "Kaşlarda titiz çalışma: açma, renk, şekil.",
+        "options": {
+          "combo": "Kompleks"
+        }
+      },
+      {
+        "title": "Kalıcı Şekillendirme + Düzeltme + Boyama",
+        "description": "Mükemmel kaşlar için uzun süreli etki.",
+        "options": {
+          "care": "Tam Bakım"
+        }
+      },
+      {
+        "title": "Düzeltme Olmadan Kaş Boyama",
+        "description": "Rengi yenilemenin basit yolu.",
+        "options": {
+          "noCorrection": "Düzeltme Yok"
+        }
+      },
+      {
+        "title": "Yüz Ağdası",
+        "description": "Bir bölgede istenmeyen tüylerin nazikçe alınması.",
+        "options": {
+          "zone1": "1 Bölge"
+        }
+      },
+      {
+        "title": "Erkek Kaş Tasarımı",
+        "description": "Düzenli bakış için kaş düzeltme ve boyama.",
+        "options": {
+          "full": "Tam Kompleks"
+        }
+      },
+      {
+        "title": "Kaş Düzeltme (Boyama Olmadan)",
+        "description": "Güzel şekil için nazik tüy alma.",
+        "options": {
+          "basic": "Nazik Tüy Alma"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "button": "Sertifika Al",
+    "title": "Sertifika İşlemleri",
+    "descriptionRich": "WhatsApp üzerinden geri arama talep edebilir veya telefonla arayabilirsiniz. Lütfen önceden <link>gizlilik politikamızı</link> inceleyiniz.",
+    "placeholderName": "Adınız",
+    "placeholderPhone": "Telefon Numarası",
+    "submit": "Gönder"
+  },
+  "contacts": {
+    "title": "İletişim",
+    "address": "Saint Petersburg, Moskovskiy Prospekt 97A",
+    "hours": "Pazartesiden Pazara, 12:00 - 22:00 arası",
+    "whatsapp": "WhatsApp",
+    "vk": "VK",
+    "telegram": "Telegram"
+  },
+  "faceCare": {
+    "title": "Yüz Bakımı",
+    "services": [
+      {
+        "title": "Lenf Drenaj / Klasik Masaj",
+        "description": "Şişlikleri azaltmak ve mikrosirkülasyonu artırmak için nazik masaj."
+      },
+      {
+        "title": "Heykel Masajı",
+        "description": "Yüz kaslarını derinlemesine çalıştırarak lifting etkisi."
+      },
+      {
+        "title": "Masaj, Peeling, Maske",
+        "description": "Cilt temizliği ve beslenmesi için tam bakım."
+      },
+      {
+        "title": "Masaj, Maske",
+        "description": "Hızlı onarım ve nemlendirme bakımı."
+      },
+      {
+        "title": "Kozmetik Peeling",
+        "description": "Akne, genişlemiş gözenekler, couperose, hiperkeratoz, küçük izler."
+      },
+      {
+        "title": "Mekanik Temizlik",
+        "description": "Ölü deri tabakasının kozmetik soyulması."
+      },
+      {
+        "title": "Fraksiyonel Bakım",
+        "description": "Hücre yenilenmesi ile derin cilt onarımı."
+      }
+    ]
+  },
+  "hairServices": {
+    "title": "Saç Bakımı",
+    "services": [
+      {
+        "title": "Saç Yıkama ve Düzleştirici / Maşa / Fırça ile Şekillendirme",
+        "description": "Tam paket: saç yıkama ve düzleştirici, maşayla veya fırçayla şekillendirme.",
+        "options": {
+          "short": "Omuz hizasında kısa saç",
+          "medium": "Omuz bıçaklarına kadar",
+          "long": "Omuz bıçaklarının altında"
+        }
+      },
+      {
+        "title": "Kuru Saçların Fırçayla Şekillendirilmesi",
+        "description": "Hacim ve şekil vermek için fırça ile kuru saçların şekillendirilmesi.",
+        "options": {
+          "short": "Kısa saçlar",
+          "shortComplex": "Kısa saçlar (karmaşık)",
+          "medium": "Omuz bıçaklarına kadar",
+          "mediumComplex": "Omuz bıçaklarına kadar (karmaşık)",
+          "long": "Omuz bıçaklarının altında",
+          "longComplex": "Omuz bıçaklarının altında (karmaşık)"
+        }
+      },
+      {
+        "title": "Saç Nemlendirme",
+        "description": "Saçın yumuşaklığını ve parlaklığını geri kazandırmak için derin nemlendirme.",
+        "options": {
+          "short": "Kısa saçlar",
+          "medium": "Omuz bıçaklarına kadar",
+          "long": "Omuz bıçaklarının altında"
+        }
+      },
+      {
+        "title": "Saç Onarımı",
+        "description": "Hasar görmüş saçların yapısını yoğun şekilde onarma.",
+        "options": {
+          "short": "Kısa saçlar",
+          "medium": "Omuz bıçaklarına kadar",
+          "long": "Omuz bıçaklarının altında"
+        }
+      },
+      {
+        "title": "Saç Uçlarını Kesme",
+        "description": "Sağlıklı saç görünümü için kırık uçların kesilmesi.",
+        "options": {
+          "all": "Tüm uzunluklar"
+        }
+      }
+    ]
+  },
+  "massages": {
+    "title": "Vücut Bakımı",
+    "classic": {
+      "title": "Klasik",
+      "description": "Rahatlayın ve kaslarınızın tam sakinliğe ulaşmasına izin verin."
+    },
+    "lymph": {
+      "title": "Lenf Drenaj",
+      "description": "Bu bakım türü, kaslardaki oksijen akışını artırmaya ve toksinlerin atılmasına odaklanır."
+    },
+    "sport": {
+      "title": "Spor Masajı",
+      "description": "Kas dokularına derinlemesine işler ve ağrıyı hafifletir."
+    },
+    "sultan": {
+      "title": "Sultan",
+      "description": "4 el ile eşsiz prosedür, peeling, maske. 2 saat keyif ve tam rahatlama."
+    },
+    "local": {
+      "title": "Lokal",
+      "description": "Gerginliği ve stresi bırakın, belirli bir bölgeyi maksimum düzeyde çalıştırın!"
+    },
+    "spa": {
+      "title": "SPA Programları",
+      "description": "Bir veya iki kişi için 3 SPA programı seçeneği sunuyoruz; bakımlar, sargılar, peelingler ve çeşitli maskeler içerir."
+    },
+    "author": {
+      "title": "Özel Bakım",
+      "description": "Vücudunuz için usta tarafından benzersiz teknik."
+    },
+    "shvz": {
+      "title": "Boyun + Sırt",
+      "description": "Boyun ve omuz bölgesine yönelik bakım."
+    },
+    "aroma": {
+      "title": "Aroma Yağı (El Mumları)",
+      "description": "Mum kullanılarak aromaterapi bakımı."
+    },
+    "focused": {
+      "title": "Bölgesel Bakım (Bacaklar, Kollar, Baş)",
+      "description": "Belirli alanlara odaklı bakım."
+    },
+    "scrub": {
+      "title": "Peeling",
+      "description": "Vücudun derin temizliği. Seçilebilir malzeme."
+    },
+    "wrap": {
+      "title": "Sargı",
+      "description": "Besleyici sargılar seçenekleri."
+    },
+    "stone": {
+      "title": "Taş Terapisi",
+      "description": "Kasları derinlemesine ısıtmak için sıcak taşlar."
+    }
+  },
+  "specialOffers": {
+    "title": "Sedir Fıçısı ve SPA Programları",
+    "offers": [
+      {
+        "title": "Sedir Fıçısı — 1 Kişi",
+        "description": "Bir misafir için klasik fitosauna prosedürü."
+      },
+      {
+        "title": "Sedir Fıçısı — 2 Kişi",
+        "description": "İki misafir için ortak prosedür."
+      },
+      {
+        "title": "Sedir Fıçısı + Vücut Bakımı",
+        "description": "Fıçı - 30 dakika, vücut bakımı 60 dakika.",
+        "durationLabel": "60–90 dakika"
+      },
+      {
+        "title": "Sedir Fıçısı + Vücut Bakımı + Yüz Bakımı",
+        "description": "Vücut ve yüz içeren tam SPA prosedürü."
+      },
+      {
+        "title": "Kapsamlı SPA Bakımı",
+        "description": "Vücut bakımı + peeling + sargı."
+      },
+      {
+        "title": "Selülit Karşıtı SPA Programı",
+        "description": "Peeling, sargı, bakım."
+      },
+      {
+        "title": "Keyifli Kilo Verme",
+        "description": "Sedir fıçısı, banyo, peeling, bakım, sargı, çay seremonisi."
+      },
+      {
+        "title": "Rahatlatıcı SPA Programı",
+        "description": "Peeling, sargı, klasik bakım."
+      }
+    ]
+  },
+  "footer": {
+    "nav": {
+      "services": "Hizmetler",
+      "specialOffers": "Kampanyalar",
+      "reviews": "Yorumlar",
+      "contacts": "İletişim"
+    },
+    "contacts": {
+      "title": "İletişim",
+      "address": "Saint Petersburg, Moskovskiy Prospekt 97A",
+      "hours": "12:00 - 22:00 arası",
+      "phone": "Telefon: +7 (950) 038-41-35"
+    },
+    "social": {
+      "title": "Sosyal Medyada Biz"
+    },
+    "rights": "Tüm hakları saklıdır."
+  },
+  "header": {
+    "nav": {
+      "services": "Hizmetler",
+      "about": "Hakkımızda",
+      "reviews": "Yorumlar",
+      "contacts": "İletişim"
+    }
+  },
+  "booking": {
+    "title": "Rezervasyon yapmak ister misiniz?",
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+  "privacy": {
+    "title": "Kişisel Verilerin İşlenmesine İlişkin Politika",
+    "intro": "Bu kişisel verilerin işlenmesine ilişkin politika, 27.07.2006 tarihli 152-FZ sayılı Federal Kanun \"Kişisel Veriler Hakkında\" (bundan böyle \"Kişisel Veriler Yasası\" olarak anılacaktır) hükümlerine uygun olarak hazırlanmıştır ve bireysel girişimci Nesterova Tatyana Eduardovna tarafından alınan kişisel verilerin işlenme usulü ve güvenlik önlemlerini tanımlar (bundan böyle \"Operatör\" olarak anılacaktır).",
+    "intro_1_1": "1.1. Operatör, kişisel verilerin işlenmesi sırasında insan ve vatandaşın hak ve özgürlüklerinin korunmasını, özel hayatın gizliliğinin ve aile sırlarının korunmasını faaliyetin en önemli amacı ve şartı olarak belirler.",
+    "intro_1_2": "1.2. Bu Politika, Operatörün https://olympspa.ru web sitesinin ziyaretçileri hakkında elde edebileceği tüm bilgilere uygulanır.",
+    "definitions_intro": "2. Politikada Kullanılan Temel Kavramlar",
+    "definitionsText": "2.1. Otomatik Kişisel Veri İşleme — kişisel verilerin bilgisayar araçlarıyla işlenmesi.\n2.2. Kişisel Verilerin Engellenmesi — kişisel verilerin geçici olarak işlenmesinin durdurulması (kişisel verilerin doğrulanması için işleme gerekiyorsa hariç).\n2.3. Web Sitesi — grafik ve bilgi materyalleri ile veritabanlarından oluşan, https://olympspa.ru adresinde erişilebilir olan kaynak.\n2.4. Kişisel Veri Bilgi Sistemi — kişisel verileri içeren ve işlenmesini sağlayan bilgi teknolojileri ve teknik araçlar bütünüdür.\n2.5. Kişisel Verilerin Anonimleştirilmesi — kişisel verilerin, ek bilgi olmadan belirli bir kullanıcıya veya kişisel veri sahibi kişiye ait olduğunun tespitinin imkansız hale gelmesi.\n2.6. Kişisel Verilerin İşlenmesi — otomatik veya otomatik olmayan yollarla kişisel veriler üzerinde yapılan herhangi bir işlem (toplama, kaydetme, düzenleme, depolama, güncelleme, çıkarma, kullanma, aktarma, anonimleştirme, engelleme, silme, yok etme).\n2.7. Operatör — kişisel verilerin işlenmesini organize eden ve kişisel verilerin işlenme amaçlarını, kapsamını ve işlemleri belirleyen kişi.\n2.8. Kişisel Veriler — https://olympspa.ru web sitesinin kullanıcılarına doğrudan veya dolaylı olarak atfedilebilen bilgiler.\n2.9. Yaygın Kişisel Veriler — kişisel veri sahibinin açık rızası ile herkes tarafından erişilebilir hale getirilen kişisel veriler.\n2.10. Kullanıcı — https://olympspa.ru web sitesinin herhangi bir ziyaretçisi.\n2.11. Kişisel Verilerin Sağlanması — kişisel verilerin belirli kişi veya kişilerle paylaşılması işlemi.\n2.12. Kişisel Verilerin Yayılması — kişisel verilerin belirsiz kişilerle veya geniş kitlelerle paylaşılması.\n2.13. Sınırötesi Kişisel Veri Transferi — kişisel verilerin yabancı devletlerin makamlarına veya yabancı gerçek veya tüzel kişilere aktarılması.\n2.14. Kişisel Verilerin Yok Edilmesi — kişisel verilerin kalıcı olarak silinmesi veya imha edilmesi.",
+    "operator_rights": "3. Operatörün Temel Hak ve Yükümlülükleri",
+    "operator_rights_text": "3.1. Operatörün hakları:\n— kişisel veri sahibinden doğru bilgi ve belgeler alma;\n— kişisel veri sahibinin rızasını geri çekmesi durumunda veya işlenmenin durdurulmasını talep etmesi halinde, yasal dayanaklar varsa işleme devam etme;\n— kanun ve ilgili düzenlemeler doğrultusunda gerekli tedbirleri belirleme ve uygulama.",
+    "operator_duties": "3.2. Operatörün yükümlülükleri:",
+    "operator_duties_text": "— kişisel veri sahibine talebi halinde verilerinin işlenmesi hakkında bilgi sağlama;\n— kişisel verilerin yasalar çerçevesinde işlenmesini sağlama;\n— kişisel veri sahiplerinin taleplerine ve yasal temsilcilerinin başvurularına yanıt verme;\n— yetkili makama 10 gün içinde gerekli bilgileri sağlama;\n— kişisel veri işleme politikasını erişime açma;\n— kişisel verileri yetkisiz erişim, yok etme, değiştirme, engelleme, kopyalama, yayma ve diğer yasa dışı işlemlerden koruma;\n— kişisel verilerin iletimini durdurma, işleme ve yok etme;\n— kanunda belirtilen diğer yükümlülükleri yerine getirme.",
+    "section4_title": "4. Kişisel Veri Sahiplerinin Temel Hak ve Yükümlülükleri",
+    "section4_text": "4.1. Kişisel veri sahiplerinin hakları:\n— kişisel verilerinin işlenmesine ilişkin bilgileri alma (kanunda öngörülen durumlar hariç);\n— eksik, güncel olmayan, yanlış veya gereksiz verilerin düzeltilmesini, engellenmesini veya silinmesini talep etme;\n— pazarlama amaçlı veri işleme için ön onay koşulu koyma;\n— onayı geri çekme ve işlenmenin durdurulmasını talep etme;\n— yetkili makamlara şikayet etme veya yasal yollara başvurma;\n— kanunlarda belirtilen diğer hakları kullanma.\n4.2. Kişisel veri sahiplerinin yükümlülükleri:\n— doğru veri sağlama;\n— verilerdeki değişiklikleri bildirme.\n4.3. Yanlış veya izinsiz veri verenler yasal sorumluluk taşır.",
+    "section5_title": "5. Kişisel Verilerin İşlenme İlkeleri",
+    "section5_text": "5.1. Kişisel veriler yasal ve adil şekilde işlenir.\n5.2. İşlemeler açık ve yasal amaçlarla sınırlıdır.\n5.3. Farklı amaçlar için işlenen veriler birleştirilemez.\n5.4. İşlenen veriler sadece amaçlara uygundur.\n5.5. İşlenen veriler gereğinden fazla olmamalıdır.\n5.6. Veriler doğruluk, yeterlilik ve güncellik açısından sağlanmalıdır.\n5.7. Veriler sadece amaçlar için gerektiği sürece saklanır, aksi halde imha edilir.",
+    "section6_title": "6. Kişisel Verilerin İşlenme Amaçları",
+    "section6_text": "Amaç — hizmet rezervasyonu için geri bildirim\nKişisel Veriler — ad, soyad, e-posta, telefon numaraları\nHukuki Dayanak — 27.07.2006 tarihli 152-FZ sayılı Federal Kanun \"Kişisel Veriler Hakkında\"\nİşlem Türleri — kişisel verilerin toplanması, kaydedilmesi, sistematikleştirilmesi, depolanması, imhası ve anonimleştirilmesi",
+    "section7_title": "7. Kişisel Verilerin İşlenme Koşulları",
+    "section7_text": "7.1. Kişisel veriler kişinin açık rızasıyla işlenir.\n7.2. Kanun veya uluslararası anlaşmalarla belirlenen amaçlar için işlenebilir.\n7.3. Adaletin yerine getirilmesi ve mahkeme kararlarının uygulanması için işlenebilir.\n7.4. Sözleşmelerin uygulanması için işlenebilir.\n7.5. Operatör veya üçüncü şahısların hak ve çıkarları için işlenebilir.\n7.6. Kamuya açık kişisel veriler işlenebilir.\n7.7. Yasal zorunluluklar için işlenebilir.",
+    "section8_title": "8. Kişisel Verilerin Toplanması, Saklanması ve İşlenme Şekli",
+    "section8_text": "Operatör, kişisel verilerin güvenliğini sağlamak için yasal, idari ve teknik tedbirler uygular.\n8.1. Verilerin korunması için gerekli tüm önlemler alınır.\n8.2. Kullanıcı verileri üçüncü şahıslara kanun gereği veya kullanıcının onayıyla paylaşılır.\n8.3. Veri yanlışlıkları kullanıcı tarafından güncellenebilir.\n8.4. Veriler amaçlar doğrultusunda ve yasal süre boyunca saklanır.\nVeri sahibinin rızası herhangi zamanda geri çekilebilir.\n8.5. Üçüncü taraf hizmet sağlayıcılar tarafından toplanan veriler onların politikalarına tabidir.\n8.6. Kamu yararına işlenen veriler için bazı kısıtlamalar uygulanmaz.\n8.7. Operatör gizliliği sağlar.\n8.8. Veriler amaçlar doğrultusunda saklanır.\n8.9. İşleme son verme koşulları belirtilmiştir.",
+    "section9_title": "9. Operatörün Kişisel Verilerle Yaptığı İşlemler",
+    "section9_text": "9.1. Operatör, kişisel verilerin toplanması, kaydedilmesi, depolanması, güncellenmesi, kullanılması, aktarılması, anonimleştirilmesi ve yok edilmesi işlemlerini yapar.\n9.2. İşlemler otomatik veya manuel olabilir.",
+    "section10_title": "10. Sınırötesi Kişisel Veri Transferi",
+    "section10_text": "10.1. Sınırötesi veri transferinden önce yetkili kuruma bildirim yapılmalıdır.\n10.2. Gerekli bilgiler ilgili yabancı makamlar tarafından sağlanmalıdır.",
+    "section11_title": "11. Kişisel Verilerin Gizliliği",
+    "section11_text": "Operatör ve veriye erişen diğer kişiler, kişinin izni olmadan verileri ifşa etmez veya paylaşmaz, aksi yasal olarak düzenlenmiştir.",
+    "section12_title": "12. Son Hükümler",
+    "section12_text": "12.1. Kullanıcı, kişisel verilerle ilgili her türlü sorusunu https://t.me/olympspa üzerinden Operatöre iletebilir.\n12.2. Bu dokümanda politika değişiklikleri yansıtılır ve politika yeni versiyon yayınlanana kadar geçerlidir.\n12.3. Politikanın güncel versiyonu https://olympspa.ru adresinde halka açıktır.",
+    "agreeText": "Gizlilik politikasını okudum ve kabul ediyorum.",
+    "confirm": "Onayla",
+    "error": "Devam etmek için lütfen onay verin."
+  },
+  "privacyWidget": {
+    "ariaLabel": "Gizlilik Politikası",
+    "title": "Gizlilik Politikası",
+    "header": "Gizlilik Politikası",
+    "description": "Hizmetimizi geliştirmek için verileri kullanıyoruz. Veri toplama ve kullanımı hakkında daha fazla bilgi için ",
+    "linkText": "gizlilik politikası",
+    "closeButton": "Kapat"
+  }
+}

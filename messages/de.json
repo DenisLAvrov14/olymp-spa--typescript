@@ -1,0 +1,358 @@
+{
+  "greeting": {
+    "title": "Olymp Spa",
+    "subtitle": "Imperium der Schönheit",
+    "paragraph1": "OLYMP ist nicht nur ein Spa-Zentrum, sondern eine wahre Oase der Entspannung und Selbstfürsorge, gelegen im Hotel „Moskauer Tore“.",
+    "paragraph2": "Wir bieten verschiedene Pflegeprogramme an, darunter klassische, sportliche, Anti-Cellulite-Massagen sowie das einzigartige Ritual „Sultan“ mit vier Händen, ausgeführt von wahren Meistern ihres Fachs.",
+    "paragraph3": "Nach der Massage können Sie Ihre Selbstfürsorge in der Zedernholzwanne fortsetzen. Friseur- und Augenbrauenservices sind ebenfalls verfügbar, um Ihre Verwandlung abzurunden.",
+    "paragraph4": "Erleben Sie Wärme, Gemütlichkeit und Ruhe im Salon OLYMP."
+  },
+  "duration": {
+    "30": "30 Minuten",
+    "60": "60 Minuten",
+    "90": "90 Minuten",
+    "120": "120 Minuten",
+    "150": "150 Minuten",
+    "200": "200 Minuten"
+  },
+  "browServices": {
+    "title": "Augenbrauen-Services",
+    "services": [
+      {
+        "title": "Wimpern färben",
+        "description": "Ausdrucksstarke Farbe und intensive Blick.",
+        "options": {
+          "advanced": "Standard"
+        }
+      },
+      {
+        "title": "Wimpernlifting",
+        "description": "Visuelles Lifting der Wimpern oder natürlicher Blick.",
+        "options": {
+          "standard": "Standard"
+        }
+      },
+      {
+        "title": "Doppellaminierung der Wimpern",
+        "description": "Lifting/Extra-Lifting der oberen und unteren Wimpern auf Anfrage.",
+        "options": {
+          "double": "Doppel"
+        }
+      },
+      {
+        "title": "Korrektur + Färbung der Augenbrauen",
+        "description": "Form und Farbe passend zu Ihrem Gesichtstyp.",
+        "options": {
+          "full": "Komplett"
+        }
+      },
+      {
+        "title": "Aufhellung + Färbung + Korrektur",
+        "description": "Sorgfältige Arbeit an den Brauen: Aufhellen, Farbe, Form.",
+        "options": {
+          "combo": "Kombination"
+        }
+      },
+      {
+        "title": "Dauerhafte Fixierung + Korrektur + Färbung",
+        "description": "Lang anhaltender Effekt perfekter Augenbrauen.",
+        "options": {
+          "care": "Volle Pflege"
+        }
+      },
+      {
+        "title": "Färbung der Augenbrauen ohne Korrektur",
+        "description": "Einfache Möglichkeit, die Farbe zu erneuern.",
+        "options": {
+          "noCorrection": "Ohne Korrektur"
+        }
+      },
+      {
+        "title": "Gesichts-Waxing",
+        "description": "Schonende Entfernung unerwünschter Haare in einem Bereich.",
+        "options": {
+          "zone1": "1 Zone"
+        }
+      },
+      {
+        "title": "Männliche Augenbrauengestaltung",
+        "description": "Korrektur und Färbung der Augenbrauen für einen gepflegten Look.",
+        "options": {
+          "full": "Komplett"
+        }
+      },
+      {
+        "title": "Korrektur der Augenbrauen ohne Färbung",
+        "description": "Schonende Haarentfernung für eine schöne Form.",
+        "options": {
+          "basic": "Schonende Haarentfernung"
+        }
+      }
+    ]
+  },
+  "certificate": {
+    "button": "Zertifikat beantragen",
+    "title": "Zertifikatsantrag",
+    "descriptionRich": "Sie können einen Rückruf über Whatsapp beantragen oder uns telefonisch kontaktieren. Bitte lesen Sie vorab die <link>Datenschutzerklärung</link>.",
+    "placeholderName": "Ihr Name",
+    "placeholderPhone": "Telefonnummer",
+    "submit": "Senden"
+  },
+  "contacts": {
+    "title": "Kontakte",
+    "address": "Sankt Petersburg, Moskovskiy Prospekt 97A",
+    "hours": "Montag bis Sonntag, von 12:00 bis 22:00",
+    "whatsapp": "WhatsApp",
+    "vk": "VK",
+    "telegram": "Telegram"
+  },
+  "faceCare": {
+    "title": "Gesichtspflege",
+    "services": [
+      {
+        "title": "Lymphdrainage-/Klassische Massage",
+        "description": "Sanfte Massage zur Linderung von Schwellungen und Verbesserung der Mikrozirkulation."
+      },
+      {
+        "title": "Skulpturale Massage",
+        "description": "Tiefgehende Bearbeitung der Gesichtsmuskeln für einen Lifting-Effekt."
+      },
+      {
+        "title": "Massage, Peeling, Maske",
+        "description": "Umfassende Pflege der Gesichtshaut: Reinigung und Ernährung."
+      },
+      {
+        "title": "Massage, Maske",
+        "description": "Schnelle Pflege zur Regeneration und Feuchtigkeitsversorgung."
+      },
+      {
+        "title": "Kosmetisches Peeling",
+        "description": "Akne, erweiterte Poren, Couperose, Hyperkeratose, kleine Narben."
+      },
+      {
+        "title": "Mechanische Reinigung",
+        "description": "Kosmetisches Abtragen abgestorbener Haut."
+      },
+      {
+        "title": "Fraktionierte Pflege",
+        "description": "Tiefgehende Regeneration mit Zellneuerung."
+      }
+    ]
+  },
+  "hairServices": {
+    "title": "Haarpflege",
+    "services": [
+      {
+        "title": "Waschen und Stylen mit Glätteisen / Lockenstab / Bürste",
+        "description": "Komplettpaket: Waschen und Styling mit Glätteisen, Lockenstab oder Bürste.",
+        "options": {
+          "short": "Kurze Haare bis zu den Schultern",
+          "medium": "Bis zu den Schulterblättern",
+          "long": "Unter den Schulterblättern"
+        }
+      },
+      {
+        "title": "Styling trockener Haare mit Bürste",
+        "description": "Styling trockener Haare mit Bürste für Volumen und Form.",
+        "options": {
+          "short": "Kurze Haare",
+          "shortComplex": "Kurze Haare (kompliziert)",
+          "medium": "Bis zu den Schulterblättern",
+          "mediumComplex": "Bis zu den Schulterblättern (kompliziert)",
+          "long": "Unter den Schulterblättern",
+          "longComplex": "Unter den Schulterblättern (kompliziert)"
+        }
+      },
+      {
+        "title": "Feuchtigkeitspflege der Haare",
+        "description": "Tiefe Feuchtigkeitsversorgung zur Wiederherstellung von Weichheit und Glanz.",
+        "options": {
+          "short": "Kurze Haare",
+          "medium": "Bis zu den Schulterblättern",
+          "long": "Unter den Schulterblättern"
+        }
+      },
+      {
+        "title": "Haarreparatur",
+        "description": "Intensive Wiederherstellung der beschädigten Haarstruktur.",
+        "options": {
+          "short": "Kurze Haare",
+          "medium": "Bis zu den Schulterblättern",
+          "long": "Unter den Schulterblättern"
+        }
+      },
+      {
+        "title": "Spitzen schneiden",
+        "description": "Schneiden von Spliss für gesund aussehendes Haar.",
+        "options": {
+          "all": "Alle Längen"
+        }
+      }
+    ]
+  },
+  "massages": {
+    "title": "Körperpflege",
+    "classic": {
+      "title": "Klassisch",
+      "description": "Entspannen Sie sich und lassen Sie Ihre Muskeln voll zur Ruhe kommen."
+    },
+    "lymph": {
+      "title": "Lymphdrainage",
+      "description": "Diese Pflege konzentriert sich auf die Erhöhung des Sauerstoffflusses und die Entfernung von Giftstoffen aus den Muskeln."
+    },
+    "sport": {
+      "title": "Sportlich",
+      "description": "Dringt tief in das Muskelgewebe ein und hilft Schmerzen zu lindern."
+    },
+    "sultan": {
+      "title": "Sultan",
+      "description": "Einzigartiges Verfahren mit vier Händen, Peeling, Maske. 2 Stunden Genuss und völlige Entspannung."
+    },
+    "local": {
+      "title": "Lokal",
+      "description": "Lassen Sie Spannung und Stress los und bearbeiten Sie einen bestimmten Bereich intensiv."
+    },
+    "spa": {
+      "title": "SPA-Programme",
+      "description": "Wir bieten 3 SPA-Programme für eine oder zwei Personen an, die Pflege, Wickel, Peelings und verschiedene Masken beinhalten."
+    },
+    "author": {
+      "title": "Exklusive Pflege",
+      "description": "Einzigartige Technik vom Meister für Ihren Körper."
+    },
+    "shvz": {
+      "title": "Nacken + Rücken",
+      "description": "Arbeit im Hals- und Nackenbereich sowie am Rücken."
+    },
+    "aroma": {
+      "title": "Aromaöl (Handkerzen)",
+      "description": "Aromatherapiepflege mit Kerzen."
+    },
+    "focused": {
+      "title": "Gezielte Pflege (Beine, Arme, Kopf)",
+      "description": "Fokussierte Arbeit an bestimmten Bereichen."
+    },
+    "scrub": {
+      "title": "Peeling",
+      "description": "Tiefenreinigung der Körperhaut. Material nach Wahl."
+    },
+    "wrap": {
+      "title": "Wickel",
+      "description": "Nährende Wickel zur Auswahl."
+    },
+    "stone": {
+      "title": "Steintherapie",
+      "description": "Heiße Steine zur tiefen Muskelwärmung."
+    }
+  },
+  "specialOffers": {
+    "title": "Zedernholzfässer und SPA-Programme",
+    "offers": [
+      {
+        "title": "Zedernholzfass — 1 Person",
+        "description": "Klassisches Phytosauna-Verfahren für einen Gast."
+      },
+      {
+        "title": "Zedernholzfass — 2 Personen",
+        "description": "Paarverfahren für zwei Gäste gleichzeitig."
+      },
+      {
+        "title": "Zedernholzfass + Körperpflege",
+        "description": "Fass - 30 Minuten, Körperpflege 60 Minuten.",
+        "durationLabel": "60–90 Minuten"
+      },
+      {
+        "title": "Zedernholzfass + Körperpflege + Gesichtspflege",
+        "description": "Komplettes SPA-Verfahren mit Körper und Gesicht."
+      },
+      {
+        "title": "Umfassende SPA-Pflege",
+        "description": "Körperpflege + Peeling + Wickel."
+      },
+      {
+        "title": "Anti-Cellulite SPA-Programm",
+        "description": "Peeling, Wickel, Pflege."
+      },
+      {
+        "title": "Abnehmen mit Vergnügen",
+        "description": "Zedernholzfass, Bad, Peeling, Pflege, Wickel, Teezeremonie."
+      },
+      {
+        "title": "Entspannendes SPA-Programm",
+        "description": "Peeling, Wickel, klassische Pflege."
+      }
+    ]
+  },
+  "footer": {
+    "nav": {
+      "services": "Dienstleistungen",
+      "specialOffers": "Angebote",
+      "reviews": "Bewertungen",
+      "contacts": "Kontakte"
+    },
+    "contacts": {
+      "title": "Kontakte",
+      "address": "Sankt Petersburg, Moskovskiy Prospekt 97A",
+      "hours": "Von 12:00 bis 22:00",
+      "phone": "Telefon: +7 (950) 038-41-35"
+    },
+    "social": {
+      "title": "Wir sind in sozialen Netzwerken"
+    },
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "header": {
+    "nav": {
+      "services": "Dienstleistungen",
+      "about": "Über uns",
+      "reviews": "Bewertungen",
+      "contacts": "Kontakt"
+    }
+  },
+  "booking": {
+    "title": "Möchten Sie buchen?",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "privacy": {
+    "title": "Datenschutz- und personenbezogene Datenrichtlinie",
+    "intro": "Diese Datenschutzrichtlinie wurde gemäß dem Bundesgesetz Nr. 152-FZ vom 27.07.2006 \"Über personenbezogene Daten\" (im Folgenden \"Gesetz über personenbezogene Daten\") erstellt und definiert das Verfahren zur Verarbeitung personenbezogener Daten und die von der Einzelunternehmerin Tatyana Eduardovna Nesterova (im Folgenden \"Betreiber\") ergriffenen Maßnahmen zur Datensicherheit.",
+    "intro_1_1": "1.1. Der Betreiber hat sich zum wichtigsten Ziel und zur Bedingung seiner Tätigkeit gemacht, die Rechte und Freiheiten des Menschen und des Bürgers bei der Verarbeitung seiner personenbezogenen Daten zu wahren, einschließlich des Schutzes der Privatsphäre, des persönlichen und familiären Geheimnisses.",
+    "intro_1_2": "1.2. Diese Richtlinie des Betreibers zur Verarbeitung personenbezogener Daten (im Folgenden \"Richtlinie\") gilt für alle Informationen, die der Betreiber über die Besucher der Website https://olympspa.ru erhalten kann.",
+    "definitions_intro": "2. Grundbegriffe, die in der Richtlinie verwendet werden",
+    "definitionsText": "2.1. Automatisierte Verarbeitung personenbezogener Daten — Verarbeitung mit Hilfe von Computertechnik.\n2.2. Sperrung personenbezogener Daten — vorübergehende Einstellung der Verarbeitung personenbezogener Daten (außer in Fällen, wenn die Verarbeitung zur Klärung personenbezogener Daten erforderlich ist).\n2.3. Webseite — Gesamtheit der grafischen und informativen Materialien sowie Datenbanken, die im Internet unter der Adresse https://olympspa.ru zugänglich sind.\n2.4. Informationssystem personenbezogener Daten — Gesamtheit der in Datenbanken enthaltenen personenbezogenen Daten und der Informationstechnologien und technischen Mittel, die deren Verarbeitung gewährleisten.\n2.5. Anonymisierung personenbezogener Daten — Maßnahmen, durch die ohne zusätzliche Informationen die Zugehörigkeit personenbezogener Daten zu einem bestimmten Benutzer oder anderen Subjekt personenbezogener Daten nicht bestimmt werden kann.\n2.6. Verarbeitung personenbezogener Daten — jede Aktion (Operation) oder jede Kombination von Aktionen (Operationen), die mit oder ohne Einsatz von Automatisierungsmitteln mit personenbezogenen Daten durchgeführt werden, einschließlich Sammlung, Aufzeichnung, Systematisierung, Speicherung, Aktualisierung (Änderung), Abruf, Nutzung, Übermittlung (Verbreitung, Bereitstellung, Zugang), Anonymisierung, Sperrung, Löschung, Vernichtung personenbezogener Daten.\n2.7. Betreiber — staatliche oder kommunale Behörde, juristische oder natürliche Person, die allein oder gemeinsam mit anderen die Verarbeitung personenbezogener Daten organisiert und/oder durchführt sowie die Zwecke der Verarbeitung personenbezogener Daten, den Umfang der personenbezogenen Daten, die verarbeitet werden sollen, die Handlungen (Operationen), die mit personenbezogenen Daten durchgeführt werden, bestimmt.\n2.8. Personenbezogene Daten — jede Information, die sich direkt oder indirekt auf einen bestimmten oder bestimmbaren Benutzer der Webseite https://olympspa.ru bezieht.\n2.9. Personenbezogene Daten, deren Verarbeitung vom Betroffenen für die Verbreitung freigegeben wurde — personenbezogene Daten, zu denen der Öffentlichkeit vom Betroffenen durch Zustimmung zur Verarbeitung personenbezogener Daten, die für die Verbreitung freigegeben sind, Zugang gewährt wurde.\n2.10. Benutzer — jeder Besucher der Webseite https://olympspa.ru.\n2.11. Bereitstellung personenbezogener Daten — Handlung, die auf die Offenlegung personenbezogener Daten an eine bestimmte Person oder einen bestimmten Personenkreis gerichtet ist.\n2.12. Verbreitung personenbezogener Daten — jede Handlung, die auf die Offenlegung personenbezogener Daten an einen unbestimmten Personenkreis (Übermittlung personenbezogener Daten) oder die Bekanntmachung personenbezogener Daten in Massenmedien, im Internet oder auf andere Weise gerichtet ist.\n2.13. Übermittlung personenbezogener Daten über die Staatsgrenzen hinweg — Übermittlung personenbezogener Daten an eine Behörde, eine natürliche oder juristische Person eines ausländischen Staates.\n2.14. Vernichtung personenbezogener Daten — jede Handlung, die zum unwiderruflichen Löschen personenbezogener Daten mit der Unmöglichkeit der weiteren Wiederherstellung des Inhalts personenbezogener Daten im Informationssystem und/oder zur Vernichtung der materiellen Träger personenbezogener Daten führt.",
+    "operator_rights": "3. Grundlegende Rechte und Pflichten des Betreibers",
+    "operator_rights_text": "3.1. Der Betreiber hat das Recht:\n— vom Betroffenen wahrheitsgemäße Informationen und/oder Dokumente, die personenbezogene Daten enthalten, zu erhalten;\n— im Fall des Widerrufs der Zustimmung durch den Betroffenen zur Verarbeitung personenbezogener Daten oder bei Antrag auf Einstellung der Verarbeitung, die Verarbeitung personenbezogener Daten ohne Zustimmung des Betroffenen fortzusetzen, sofern gesetzliche Grundlagen vorliegen;\n— eigenständig Maßnahmen zu bestimmen, die notwendig und ausreichend sind, um die Pflichten zu erfüllen, die durch das Gesetz über personenbezogene Daten und die entsprechenden Rechtsakte vorgesehen sind, sofern nicht anders gesetzlich geregelt.",
+    "operator_duties": "3.2. Pflichten des Betreibers:",
+    "operator_duties_text": "— dem Betroffenen auf Anfrage Informationen über die Verarbeitung seiner personenbezogenen Daten bereitzustellen;\n— die Verarbeitung personenbezogener Daten gemäß den geltenden Gesetzen zu organisieren;\n— Anfragen von Betroffenen und deren gesetzlichen Vertretern entsprechend den Anforderungen des Gesetzes zu beantworten;\n— erforderliche Informationen auf Anfrage der Datenschutzbehörde innerhalb von 10 Tagen bereitzustellen;\n— die vorliegende Datenschutzrichtlinie zu veröffentlichen oder anderweitig den uneingeschränkten Zugang zu gewährleisten;\n— rechtliche, organisatorische und technische Maßnahmen zu ergreifen, um personenbezogene Daten vor unbefugtem oder versehentlichem Zugriff, Löschung, Änderung, Sperrung, Kopieren, Bereitstellung oder Verbreitung sowie vor sonstigen rechtswidrigen Handlungen zu schützen;\n— die Übermittlung (Verbreitung, Bereitstellung, Zugang) personenbezogener Daten einzustellen, die Verarbeitung zu beenden und personenbezogene Daten gemäß den gesetzlichen Vorschriften zu vernichten;\n— sonstige Pflichten zu erfüllen, die durch das Gesetz über personenbezogene Daten vorgesehen sind.",
+    "section4_title": "4. Grundlegende Rechte und Pflichten der Betroffenen",
+    "section4_text": "4.1. Betroffene haben das Recht:\n— Informationen über die Verarbeitung ihrer personenbezogenen Daten zu erhalten, außer in Fällen, die durch Gesetze ausgeschlossen sind. Die Informationen müssen in zugänglicher Form bereitgestellt werden und dürfen keine personenbezogenen Daten Dritter enthalten, außer wenn gesetzliche Grundlagen dies erlauben;\n— vom Betreiber die Berichtigung, Sperrung oder Löschung ihrer personenbezogenen Daten zu verlangen, wenn diese unvollständig, veraltet, falsch, rechtswidrig erlangt oder für die angegebenen Zwecke nicht erforderlich sind, sowie gesetzlich vorgesehene Schutzmaßnahmen einzuleiten;\n— die Einwilligung zur Verarbeitung ihrer personenbezogenen Daten für Werbezwecke zu widerrufen;\n— gegen unrechtmäßige Handlungen oder Unterlassungen des Betreibers Beschwerde einzulegen oder Klage einzureichen;\n— weitere Rechte gemäß geltendem Recht wahrzunehmen.\n4.2. Betroffene sind verpflichtet:\n— dem Betreiber korrekte Angaben zu machen;\n— Änderungen oder Aktualisierungen ihrer personenbezogenen Daten mitzuteilen.\n4.3. Personen, die dem Betreiber falsche Angaben machen oder ohne Zustimmung Daten über andere Personen weitergeben, haften gemäß geltendem Recht.",
+    "section5_title": "5. Grundsätze der Verarbeitung personenbezogener Daten",
+    "section5_text": "5.1. Die Verarbeitung personenbezogener Daten erfolgt rechtmäßig und fair.\n5.2. Die Verarbeitung ist auf festgelegte, legitime Zwecke beschränkt.\n5.3. Es ist verboten, Datenbanken mit unvereinbaren Zwecken zusammenzuführen.\n5.4. Es werden nur personenbezogene Daten verarbeitet, die den Zwecken entsprechen.\n5.5. Es besteht Verbot der übermäßigen Datenerhebung im Verhältnis zum Zweck.\n5.6. Es wird auf Richtigkeit und Aktualität geachtet.\n5.7. Daten werden nur so lange gespeichert, wie es für den Zweck notwendig ist, sofern keine gesetzlichen Aufbewahrungsfristen bestehen.",
+    "section6_title": "6. Zwecke der Datenverarbeitung",
+    "section6_text": "Zweck: Feedback bei Dienstleistungsanfragen\nPersonenbezogene Daten: Name, Vorname, E-Mail, Telefonnummer\nRechtsgrundlage: Bundesgesetz Nr. 152-FZ vom 27.07.2006 \"Über personenbezogene Daten\"\nVerarbeitungsarten: Erhebung, Speicherung, Systematisierung, Aufbewahrung, Löschung und Anonymisierung personenbezogener Daten",
+    "section7_title": "7. Bedingungen der Datenverarbeitung",
+    "section7_text": "7.1. Verarbeitung erfolgt mit Einwilligung der betroffenen Person.\n7.2. Verarbeitung ist zur Erfüllung internationaler Verträge oder gesetzlicher Aufgaben notwendig.\n7.3. Verarbeitung für Justizvollzug oder Vollstreckung ist erlaubt.\n7.4. Verarbeitung ist für Vertragserfüllung oder Abschluss erforderlich.\n7.5. Verarbeitung erfolgt zum Schutz berechtigter Interessen, ohne Rechte zu verletzen.\n7.6. Verarbeitung öffentlich zugänglicher Daten erfolgt auf Wunsch der betroffenen Person.\n7.7. Verarbeitung erfolgt bei gesetzlichen Veröffentlichungspflichten.",
+    "section8_title": "8. Verfahren zur Erfassung, Speicherung, Übertragung und sonstigen Verarbeitung personenbezogener Daten",
+    "section8_text": "Die Datensicherheit wird durch rechtliche, organisatorische und technische Maßnahmen gewährleistet.\n8.1. Der Betreiber schützt personenbezogene Daten vor unbefugtem Zugriff.\n8.2. Daten werden nicht ohne Zustimmung weitergegeben, außer gesetzlich vorgeschrieben oder mit Einwilligung für Vertragserfüllung.\n8.3. Nutzer können Ungenauigkeiten selbst korrigieren durch Mitteilung an privacy@thismywebsite.com.\n8.4. Daten werden so lange gespeichert, wie es die Zwecke erfordern, oder wie gesetzlich vorgesehen.\nEin Widerruf der Einwilligung ist jederzeit möglich.\n8.5. Drittanbieter speichern und verarbeiten Daten gemäß eigenen Richtlinien; Betreiber haftet nicht für deren Handlungen.\n8.6. Einschränkungen für Datenweitergabe gelten nicht bei öffentlichen Interessen.\n8.7. Betreiber gewährleistet Vertraulichkeit der Daten.\n8.8. Speicherung erfolgt nur so lange wie nötig.\n8.9. Verarbeitung endet bei Erreichen der Zwecke oder Widerruf.",
+    "section9_title": "9. Auflistung der vom Betreiber mit personenbezogenen Daten durchgeführten Handlungen",
+    "section9_text": "9.1. Sammlung, Speicherung, Systematisierung, Aktualisierung, Nutzung, Übermittlung, Anonymisierung, Sperrung, Löschung und Vernichtung personenbezogener Daten.\n9.2. Automatisierte Verarbeitung mit oder ohne Übertragung über Telekommunikationsnetzwerke.",
+    "section10_title": "10. Übermittlung personenbezogener Daten über Staatsgrenzen hinweg",
+    "section10_text": "10.1. Betreiber muss vor grenzüberschreitender Datenübermittlung die Datenschutzbehörde informieren.\n10.2. Betreiber muss Informationen von ausländischen Behörden erhalten, bevor Daten übermittelt werden.",
+    "section11_title": "11. Vertraulichkeit personenbezogener Daten",
+    "section11_text": "Betreiber und andere Personen mit Zugang müssen Daten vertraulich behandeln und dürfen sie ohne Zustimmung nicht weitergeben, außer gesetzlich erlaubt.",
+    "section12_title": "12. Schlussbestimmungen",
+    "section12_text": "12.1. Nutzer können Auskünfte zu ihren Daten über https://t.me/olympspa erhalten.\n12.2. Änderungen an der Richtlinie werden dokumentiert und die Richtlinie gilt bis zu einer neuen Version.\n12.3. Aktuelle Version ist frei verfügbar auf https://olympspa.ru.",
+    "agreeText": "Ich habe die Datenschutzerklärung gelesen und stimme zu.",
+    "confirm": "Bestätigen",
+    "error": "Bitte bestätigen Sie Ihre Zustimmung, um fortzufahren."
+  },
+  "privacyWidget": {
+    "ariaLabel": "Datenschutzbestimmungen",
+    "title": "Datenschutzbestimmungen",
+    "header": "Datenschutzbestimmungen",
+    "description": "Wir verwenden Daten zur Verbesserung unseres Services. Mehr über Datenerfassung und Nutzung erfahren Sie in der ",
+    "linkText": "Datenschutzerklärung",
+    "closeButton": "Schließen"
+  }
+}
