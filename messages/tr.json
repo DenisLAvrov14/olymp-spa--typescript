@@ -206,7 +206,7 @@
     },
     "sultan": {
       "title": "Sultan",
-      "description": "4 el ile eşsiz prosedür, peeling, maske. 2 saat keyif ve tam rahatlama."
+      "description": "Peeling ve maske ile benzersiz dört elli uygulama. Bir saatlik keyif ve tam rahatlama."
     },
     "local": {
       "title": "Lokal",
@@ -251,6 +251,11 @@
       {
         "title": "Sedir Fıçısı — 1 Kişi",
         "description": "Bir misafir için klasik fitosauna prosedürü."
+      },
+      {
+        "title": "VITA Denge",
+        "description": "Prosedür, tüm vücudun titreşimsel yenilenmesi için benzersiz ve kapsamlı bir sistem aracılığıyla gerçekleştirilir. Her seans kendine özgüdür!",
+        "durationLabel": "60 dakika"
       },
       {
         "title": "Sedir Fıçısı — 2 Kişi",

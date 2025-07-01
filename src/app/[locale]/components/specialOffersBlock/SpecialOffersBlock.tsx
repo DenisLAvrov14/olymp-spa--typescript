@@ -56,6 +56,12 @@ const SpecialOffersBlock = () => {
       description: t("offers.7.description"),
       prices: [{ time: d("200"), cost: 15000 }],
     },
+    {
+      image: "/specialOffers/VITA.jpg",
+      title: t("offers.3.title"),
+      description: t("offers.3.description"),
+      prices: [{ time: d("60"), cost: 8000 }],
+    },
   ];
 
   return (

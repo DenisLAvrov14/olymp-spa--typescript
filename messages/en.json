@@ -206,7 +206,7 @@
     },
     "sultan": {
       "title": "Sultan",
-      "description": "Unique 4-hand procedure with scrub and mask. Two hours of pleasure and complete relaxation."
+      "description": "A unique 4-hand treatment with scrub and mask. One hour of pleasure and complete relaxation."
     },
     "local": {
       "title": "Local",
@@ -251,6 +251,11 @@
       {
         "title": "Cedar barrel — 1 person",
         "description": "Classic phyto-sauna treatment for one guest."
+      },
+      {
+        "title": "VITA Balance",
+        "description": "The procedure is performed using a unique, comprehensive system of vibrational restoration of the entire body as a whole. Every session is one of a kind!",
+        "durationLabel": "60 minutes"
       },
       {
         "title": "Cedar barrel — 2 persons",

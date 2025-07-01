@@ -206,7 +206,7 @@
     },
     "sultan": {
       "title": "Sultán",
-      "description": "Procedimiento único a 4 manos, exfoliación, mascarilla. 2 horas de placer y relajación total."
+      "description": "Tratamiento único a cuatro manos con exfoliación y mascarilla. Una hora de placer y relajación total."
     },
     "local": {
       "title": "Local",
@@ -251,6 +251,11 @@
       {
         "title": "Barril de cedro — 1 persona",
         "description": "Procedimiento clásico de fitosauna para un huésped."
+      },
+      {
+        "title": "VITA Balance",
+        "description": "El procedimiento se realiza mediante un sistema único y completo de restauración vibracional de todo el organismo en su conjunto. ¡Cada sesión es única!",
+        "durationLabel": "60 minutos"
       },
       {
         "title": "Barril de cedro — 2 personas",

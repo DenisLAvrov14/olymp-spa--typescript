@@ -53,7 +53,7 @@ const MassageBlock = () => {
       ],
     },
     {
-      image: "/massages/lymph.jpg",
+      image: "/massages/drenazh.jpg",
       title: t("author.title"),
       description: t("author.description"),
       prices: [{ time: d("60"), cost: 5500 }],
