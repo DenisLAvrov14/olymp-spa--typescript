@@ -38,7 +38,7 @@ const Footer = () => {
           <h4 className="text-lg font-semibold">{t("contacts.title")}</h4>
           <p className="mt-2 text-sm">{t("contacts.address")}</p>
           <p className="text-sm">{t("contacts.hours")}</p>
-          <p className="mt-2 text-sm">{t("contacts.phone")}</p>
+          <a className="mt-2 text-sm" href="tel:+79500384135">{t("contacts.phone")}</a>
         </div>
 
         {/* Социальные сети */}

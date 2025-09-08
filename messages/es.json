@@ -206,7 +206,7 @@
     },
     "sultan": {
       "title": "Sultán",
-      "description": "Tratamiento único a cuatro manos con exfoliación y mascarilla. Una hora de placer y relajación total."
+"description": "Procedimiento único a 4 manos. 1 hora de placer y total relajación."
     },
     "local": {
       "title": "Local",
@@ -245,49 +245,49 @@
       "description": "Piedras calientes para calentar profundamente los músculos."
     }
   },
-  "specialOffers": {
-    "title": "Barriles de cedro y programas SPA",
-    "offers": [
-      {
-        "title": "Barril de cedro — 1 persona",
-        "description": "Procedimiento clásico de fitosauna para un huésped."
-      },
-      {
-        "title": "VITA Balance",
-        "description": "El procedimiento se realiza mediante un sistema único y completo de restauración vibracional de todo el organismo en su conjunto. ¡Cada sesión es única!",
-        "durationLabel": "60 minutos"
-      },
-      {
-        "title": "Barril de cedro — 2 personas",
-        "description": "Procedimiento para dos huéspedes simultáneamente."
-      },
-      {
-        "title": "Barril de cedro + cuidado corporal",
-        "description": "Barril - 30 minutos, cuidado corporal 60 minutos.",
-        "durationLabel": "60–90 minutos"
-      },
-      {
-        "title": "Barril de cedro + cuidado corporal + cuidado facial",
-        "description": "Procedimiento SPA completo con cuerpo y rostro."
-      },
-      {
-        "title": "Cuidado SPA integral",
-        "description": "Cuidado corporal + exfoliación + envoltura."
-      },
-      {
-        "title": "Programa SPA anticelulítico",
-        "description": "Exfoliación, envoltura, cuidado."
-      },
-      {
-        "title": "Adelgazamiento con placer",
-        "description": "Barril de cedro, baño, exfoliación, cuidado, envoltura, ceremonia del té."
-      },
-      {
-        "title": "Programa SPA relajante",
-        "description": "Exfoliación, envoltura, cuidado clásico."
-      }
-    ]
-  },
+"specialOffers": {
+  "title": "Barriles de cedro y programas de SPA",
+  "offers": [
+    {
+      "title": "Barril de cedro — 1 persona",
+      "description": "Procedimiento clásico de fitosauna para un invitado."
+    },
+    {
+      "title": "Barril de cedro — 2 personas",
+      "description": "Procedimiento de vapor para dos invitados a la vez."
+    },
+    {
+      "title": "Barril de cedro + cuidado corporal",
+      "description": "Barril - 30 minutos, cuidado corporal - 60 minutos.",
+      "durationLabel": "60–90 minutos"
+    },
+    {
+      "title": "Barril de cedro + cuidado corporal y facial",
+      "description": "Tratamiento SPA completo para cuerpo y rostro."
+    },
+    {
+      "title": "Tratamiento SPA integral",
+      "description": "Cuidado corporal + exfoliación + envoltura."
+    },
+    {
+      "title": "Programa SPA anticelulítico",
+      "description": "Exfoliación, envoltura, cuidado."
+    },
+    {
+      "title": "Adelgaza con placer",
+      "description": "Barril de cedro, baño, exfoliación, cuidado, envoltura, ceremonia del té."
+    },
+    {
+      "title": "Programa SPA relajante",
+      "description": "Exfoliación, envoltura, cuidado clásico."
+    },
+    {
+      "title": "VITA Balance",
+      "description": "Procedimiento único y completo para la recuperación vibracional del cuerpo. ¡Cada sesión es irrepetible!",
+      "durationLabel": "60 minutos"
+    }
+  ]
+},
   "footer": {
     "nav": {
       "services": "Servicios",
@@ -315,9 +315,7 @@
     }
   },
   "booking": {
-    "title": "¿Quieres reservar?",
-    "yes": "Sí",
-    "no": "No"
+    "button": "Reservar"
   },
   "privacy": {
     "title": "Política de privacidad y tratamiento de datos personales",
@@ -359,5 +357,11 @@
     "description": "Usamos datos para mejorar nuestro servicio. Lea más sobre la recopilación y el uso de datos en la ",
     "linkText": "política de privacidad",
     "closeButton": "Cerrar"
-  }
+  },
+  "promotion": {
+  "title": "🎁 Oferta especial",
+  "paragraph1": "Solo este mes: compra 5 tratamientos — obtén un 25% de descuento.",
+  "paragraph2": "Y al comprar 10 tratamientos — ¡30% de descuento! Puedes combinarlos: por ejemplo, 5 masajes y 5 tratamientos faciales = 30% de descuento.",
+  "button": "Solicitar certificado"
+}
 }

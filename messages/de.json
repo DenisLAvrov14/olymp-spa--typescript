@@ -206,7 +206,7 @@
     },
     "sultan": {
       "title": "Sultan",
-      "description": "Einzigartige Vierhand-Behandlung mit Peeling und Maske. Eine Stunde Genuss und völlige Entspannung."
+"description": "Einzigartige 4-Hand-Anwendung. 1 Stunde voller Genuss und völliger Entspannung."
     },
     "local": {
       "title": "Lokal",
@@ -246,43 +246,48 @@
     }
   },
   "specialOffers": {
-    "title": "Zedernholzfässer und SPA-Programme",
-    "offers": [
-      {
-        "title": "Zedernholzfass — 1 Person",
-        "description": "Klassisches Phytosauna-Verfahren für einen Gast."
-      },
-      {
-        "title": "Zedernholzfass — 2 Personen",
-        "description": "Paarverfahren für zwei Gäste gleichzeitig."
-      },
-      {
-        "title": "Zedernholzfass + Körperpflege",
-        "description": "Fass - 30 Minuten, Körperpflege 60 Minuten.",
-        "durationLabel": "60–90 Minuten"
-      },
-      {
-        "title": "Zedernholzfass + Körperpflege + Gesichtspflege",
-        "description": "Komplettes SPA-Verfahren mit Körper und Gesicht."
-      },
-      {
-        "title": "Umfassende SPA-Pflege",
-        "description": "Körperpflege + Peeling + Wickel."
-      },
-      {
-        "title": "Anti-Cellulite SPA-Programm",
-        "description": "Peeling, Wickel, Pflege."
-      },
-      {
-        "title": "Abnehmen mit Vergnügen",
-        "description": "Zedernholzfass, Bad, Peeling, Pflege, Wickel, Teezeremonie."
-      },
-      {
-        "title": "Entspannendes SPA-Programm",
-        "description": "Peeling, Wickel, klassische Pflege."
-      }
-    ]
-  },
+  "title": "Zedernfässer & SPA-Programme",
+  "offers": [
+    {
+      "title": "Zedernfass – 1 Person",
+      "description": "Klassische Phyto-Sauna-Anwendung für einen Gast."
+    },
+    {
+      "title": "Zedernfass – 2 Personen",
+      "description": "Dampfanwendung für zwei Gäste gleichzeitig."
+    },
+    {
+      "title": "Zedernfass + Körperpflege",
+      "description": "Fass – 30 Minuten, Körperpflege – 60 Minuten.",
+      "durationLabel": "60–90 Minuten"
+    },
+    {
+      "title": "Zedernfass + Körper- und Gesichtspflege",
+      "description": "Vollständige SPA-Behandlung für Körper und Gesicht."
+    },
+    {
+      "title": "Umfassende SPA-Behandlung",
+      "description": "Körperpflege + Peeling + Wickel."
+    },
+    {
+      "title": "Anti-Cellulite-SPA-Programm",
+      "description": "Peeling, Wickel, Pflege."
+    },
+    {
+      "title": "Schlank mit Genuss",
+      "description": "Zedernfass, Bad, Peeling, Pflege, Wickel, Teezeremonie."
+    },
+    {
+      "title": "Entspannendes SPA-Programm",
+      "description": "Peeling, Wickel, klassische Pflege."
+    },
+    {
+      "title": "VITA-Balance",
+      "description": "Einzigartige ganzheitliche Vibrationserholung des gesamten Körpers. Jede Sitzung ist einzigartig!",
+      "durationLabel": "60 Minuten"
+    }
+  ]
+},
   "footer": {
     "nav": {
       "services": "Dienstleistungen",
@@ -309,10 +314,8 @@
       "contacts": "Kontakt"
     }
   },
-  "booking": {
-    "title": "Möchten Sie buchen?",
-    "yes": "Ja",
-    "no": "Nein"
+"booking": {
+    "button": "Buchen"
   },
   "privacy": {
     "title": "Datenschutz- und personenbezogene Datenrichtlinie",
@@ -354,5 +357,11 @@
     "description": "Wir verwenden Daten zur Verbesserung unseres Services. Mehr über Datenerfassung und Nutzung erfahren Sie in der ",
     "linkText": "Datenschutzerklärung",
     "closeButton": "Schließen"
-  }
+  },
+  "promotion": {
+  "title": "🎁 Sonderangebot",
+  "paragraph1": "Nur diesen Monat: Kaufen Sie 5 Behandlungen – erhalten Sie 25% Rabatt.",
+  "paragraph2": "Und beim Kauf von 10 Behandlungen – 30% Rabatt! Kombinieren ist möglich: z. B. 5 Massagen und 5 Pflegeanwendungen = 30% Rabatt.",
+  "button": "Zertifikat anfordern"
+}
 }

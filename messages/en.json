@@ -206,7 +206,7 @@
     },
     "sultan": {
       "title": "Sultan",
-      "description": "A unique 4-hand treatment with scrub and mask. One hour of pleasure and complete relaxation."
+"description": "A unique 4-hand procedure. 1 hour of pleasure and complete relaxation."
     },
     "local": {
       "title": "Local",
@@ -245,49 +245,49 @@
       "description": "Hot stones for deep muscle warming."
     }
   },
-  "specialOffers": {
-    "title": "Cedar Barrels & SPA Programs",
-    "offers": [
-      {
-        "title": "Cedar barrel — 1 person",
-        "description": "Classic phyto-sauna treatment for one guest."
-      },
-      {
-        "title": "VITA Balance",
-        "description": "The procedure is performed using a unique, comprehensive system of vibrational restoration of the entire body as a whole. Every session is one of a kind!",
-        "durationLabel": "60 minutes"
-      },
-      {
-        "title": "Cedar barrel — 2 persons",
-        "description": "Steam treatment for two guests at once."
-      },
-      {
-        "title": "Cedar barrel + body care",
-        "description": "Cedar barrel – 30 minutes, body care – 60 minutes.",
-        "durationLabel": "60–90 minutes"
-      },
-      {
-        "title": "Cedar barrel + body + facial care",
-        "description": "Full SPA treatment for body and face."
-      },
-      {
-        "title": "Comprehensive SPA treatment",
-        "description": "Body care + scrub + wrap."
-      },
-      {
-        "title": "Anti-cellulite",
-        "description": "Scrub, wrap, body care."
-      },
-      {
-        "title": "Slim with pleasure",
-        "description": "Cedar barrel, bath, scrub, care, wrap, tea ceremony."
-      },
-      {
-        "title": "Relaxing",
-        "description": "Scrubbing, wrapping, classic body treatment."
-      }
-    ]
-  },
+ "specialOffers": {
+  "title": "Cedar Barrels & SPA Programs",
+  "offers": [
+    {
+      "title": "Cedar barrel — 1 person",
+      "description": "Classic phyto-sauna procedure for one guest."
+    },
+    {
+      "title": "Cedar barrel — 2 persons",
+      "description": "Steam procedure for two guests at once."
+    },
+    {
+      "title": "Cedar barrel + body care",
+      "description": "Barrel - 30 minutes, body care - 60 minutes.",
+      "durationLabel": "60–90 minutes"
+    },
+    {
+      "title": "Cedar barrel + body + facial care",
+      "description": "Complete SPA treatment for body and face."
+    },
+    {
+      "title": "Comprehensive SPA treatment",
+      "description": "Body care + scrub + wrap."
+    },
+    {
+      "title": "Anti-cellulite SPA program",
+      "description": "Scrub, wrap, care."
+    },
+    {
+      "title": "Slim with pleasure",
+      "description": "Cedar barrel, bath, scrub, care, wrap, tea ceremony."
+    },
+    {
+      "title": "Relaxing SPA program",
+      "description": "Scrubbing, wrapping, classic care."
+    },
+    {
+      "title": "VITA Balance",
+      "description": "A unique comprehensive procedure for full-body vibrational recovery. Every session is unique!",
+      "durationLabel": "60 minutes"
+    }
+  ]
+},
   "footer": {
     "nav": {
       "services": "Services",
@@ -315,9 +315,7 @@
     }
   },
   "booking": {
-    "title": "Would you like to book?",
-    "yes": "Yes",
-    "no": "No"
+    "button": "Book now"
   },
   "privacy": {
     "title": "Personal Data Processing Policy",
@@ -359,5 +357,11 @@
     "description": "We use data to improve our service. Learn more about data collection and usage in the ",
     "linkText": "privacy policy",
     "closeButton": "Close"
-  }
+  },
+  "promotion": {
+  "title": "🎁 Special Offer",
+  "paragraph1": "This month only: Buy 5 treatments — get 25% off.",
+  "paragraph2": "And when you buy 10 treatments — 30% off! You can mix and match: for example, 5 massages and 5 facials = 30% off.",
+  "button": "Get a certificate"
+}
 }

@@ -1,31 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import { BodyCareServiceType } from "../../models/BodyCareServiceType";
-import ConfirmBookingModal from "../ui/ConfirmBookingModal";
+import BookingButton from "../ui/BookingButton";
 
 interface BodyCareCardProps {
   service: BodyCareServiceType;
 }
 
 const BodyCareCard: React.FC<BodyCareCardProps> = ({ service }) => {
-  const [showConfirm, setShowConfirm] = useState(false);
-
-  const handleCardClick = () => setShowConfirm(true);
-  const handleConfirm = () => {
-    setShowConfirm(false);
-    window.location.href = "https://n1124325.yclients.com/";
-  };
-  const handleCancel = () => setShowConfirm(false);
-
   return (
-    <div
-      className="relative flex cursor-pointer flex-col rounded-lg bg-[#2A2723] p-6 shadow-lg transition-transform duration-300 md:flex-row"
-      onClick={() => {
-        if (!showConfirm) handleCardClick();
-      }}
-    >
+    <div className="relative flex flex-col rounded-lg bg-[#2A2723] p-6 shadow-lg transition-transform duration-300 md:flex-row">
       {/* Изображение */}
       <div className="mb-4 w-full md:mb-0 md:w-1/3">
         <Image
@@ -37,7 +22,7 @@ const BodyCareCard: React.FC<BodyCareCardProps> = ({ service }) => {
         />
       </div>
 
-      {/* Текст и цены */}
+      {/* Текст, цены и кнопка */}
       <div className="flex w-full flex-col justify-center text-center md:w-2/3 md:pl-6 md:text-left">
         <h3 className="mb-2 text-xl font-semibold text-[#C8A96A]">{service.title}</h3>
         <p className="mb-4 text-sm text-[#EDEAE4]">{service.description}</p>
@@ -50,10 +35,12 @@ const BodyCareCard: React.FC<BodyCareCardProps> = ({ service }) => {
             </div>
           ))}
         </div>
-      </div>
 
-      {/* Модальное окно подтверждения */}
-      {showConfirm && <ConfirmBookingModal onConfirm={handleConfirm} onCancel={handleCancel} />}
+        {/* Кнопка бронирования */}
+        <div className="mt-6 flex justify-center md:justify-start">
+          <BookingButton />
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,31 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import { SpecialOfferType } from "../../models/SpecialOfferTypes";
-import ConfirmBookingModal from "../ui/ConfirmBookingModal";
+import BookingButton from "../ui/BookingButton";
 
 interface SpecialOfferCardProps {
   offer: SpecialOfferType;
 }
 
 const SpecialOfferCard: React.FC<SpecialOfferCardProps> = ({ offer }) => {
-  const [showConfirm, setShowConfirm] = useState(false);
-
-  const handleCardClick = () => setShowConfirm(true);
-  const handleConfirm = () => {
-    setShowConfirm(false);
-    window.location.href = "https://n1124325.yclients.com/";
-  };
-  const handleCancel = () => setShowConfirm(false);
-
   return (
-    <div
-      className="relative flex cursor-pointer flex-col rounded-lg bg-[#2A2723] p-4 shadow-lg transition-transform duration-300 sm:p-6 md:flex-row md:p-8"
-      onClick={() => {
-        if (!showConfirm) handleCardClick();
-      }}
-    >
+    <div className="relative flex flex-col rounded-lg bg-[#2A2723] p-4 shadow-lg transition-transform duration-300 sm:p-6 md:flex-row md:p-8">
       {/* Изображение */}
       <div className="mb-4 w-full md:mb-0 md:w-1/3">
         <Image
@@ -51,10 +36,12 @@ const SpecialOfferCard: React.FC<SpecialOfferCardProps> = ({ offer }) => {
             </div>
           ))}
         </div>
-      </div>
 
-      {/* Модалка */}
-      {showConfirm && <ConfirmBookingModal onConfirm={handleConfirm} onCancel={handleCancel} />}
+        {/* Кнопка бронирования */}
+        <div className="mt-6 flex justify-center md:justify-start">
+          <BookingButton />
+        </div>
+      </div>
     </div>
   );
 };

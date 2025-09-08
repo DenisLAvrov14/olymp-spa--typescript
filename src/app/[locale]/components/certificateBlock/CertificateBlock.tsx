@@ -33,6 +33,13 @@ export default function CertificateFAB() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // 🔔 Подписка на кастомное событие
+  useEffect(() => {
+    const handler = () => setShowForm(true);
+    window.addEventListener("openCertificateForm", handler);
+    return () => window.removeEventListener("openCertificateForm", handler);
+  }, []);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Здравствуйте! Хочу оформить сертификат.\nИмя: ${name}\nТелефон: ${phone}`;

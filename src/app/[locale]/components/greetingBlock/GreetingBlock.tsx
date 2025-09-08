@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
+import { FiX } from "react-icons/fi";
 
 const GreetingBlock = () => {
   const [isIntroPlaying, setIsIntroPlaying] = useState(true);
@@ -18,20 +19,28 @@ const GreetingBlock = () => {
     <>
       {isIntroPlaying ? (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black">
-          <video
-            className="h-auto w-full max-w-6xl rounded-lg shadow-lg"
-            autoPlay
-            muted
-            onEnded={() => setIsIntroPlaying(false)}
-          >
-            <source src="/central.mp4" type="video/mp4" />
-          </video>
-          <button
-            className="absolute right-5 top-5 rounded-lg bg-gray-700 px-4 py-2 text-3xl text-white hover:bg-gray-500"
-            onClick={() => setIsIntroPlaying(false)}
-          >
-            ✖
-          </button>
+          {/* Обёртка для видео с кнопкой */}
+          <div className="relative w-full max-w-6xl">
+            <video
+              className="h-auto w-full rounded-lg shadow-lg"
+              autoPlay
+              muted
+              onEnded={() => setIsIntroPlaying(false)}
+            >
+              <source src="/central.mp4" type="video/mp4" />
+            </video>
+
+            {/* Кнопка прямо в видео */}
+            <button
+              onClick={() => setIsIntroPlaying(false)}
+              className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center 
+                         rounded-full bg-black/50 text-white shadow-md backdrop-blur 
+                         transition hover:scale-110 hover:bg-black/70"
+              aria-label="Закрыть видео"
+            >
+              <FiX size={20} />
+            </button>
+          </div>
         </div>
       ) : (
         <section

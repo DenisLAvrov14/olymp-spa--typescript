@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import GreetingBlock from "./components/greetingBlock/GreetingBlock";
 import HairdresserServicesBlock from "./components/hairdresserServicesBlock/HairdresserServicesBlock";
 import MassageBlock from "./components/massageBlock/MassageBlock";
+import PromotionBlock from "./components/PromotionBlock/PromotionBlock";
 import ReviewsBlock from "./components/reviewsBlock/ReviewsBlock";
 import SpecialOffersBlock from "./components/specialOffersBlock/SpecialOffersBlock";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <BrowServicesBlock />
       <FaceCareBlock />
       <CertificateBlock />
+      <PromotionBlock />
       <ReviewsBlock />
       <ContactBlock />
       <FixedPrivacyWidget />

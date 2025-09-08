@@ -1,37 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import { MassageType } from "../../models/MassageType";
-import ConfirmBookingModal from "../ui/ConfirmBookingModal";
+import BookingButton from "../ui/BookingButton";
 
 interface MassageCardProps {
   massage: MassageType;
 }
 
 const MassageCard: React.FC<MassageCardProps> = ({ massage }) => {
-  const [showConfirm, setShowConfirm] = useState(false);
-
-  const handleCardClick = () => {
-    setShowConfirm(true);
-  };
-
-  const handleConfirm = () => {
-    setShowConfirm(false);
-    window.location.href = "/booking"; // ← замени на нужный маршрут
-  };
-
-  const handleCancel = () => {
-    setShowConfirm(false);
-  };
-
   return (
-    <div
-      className="relative flex cursor-pointer flex-col rounded-lg bg-[#2A2723] p-6 font-helvetica shadow-lg"
-      onClick={() => {
-        if (!showConfirm) handleCardClick();
-      }}
-    >
+    <div className="relative flex flex-col rounded-lg bg-[#2A2723] p-6 font-helvetica shadow-lg transition-transform duration-300">
       {/* Изображение */}
       <div className="mb-4 w-full">
         {massage.image ? (
@@ -60,10 +39,12 @@ const MassageCard: React.FC<MassageCardProps> = ({ massage }) => {
             </div>
           ))}
         </div>
-      </div>
 
-      {/* Модалка подтверждения */}
-      {showConfirm && <ConfirmBookingModal onConfirm={handleConfirm} onCancel={handleCancel} />}
+        {/* Кнопка бронирования */}
+        <div className="mt-6 flex justify-center">
+          <BookingButton />
+        </div>
+      </div>
     </div>
   );
 };

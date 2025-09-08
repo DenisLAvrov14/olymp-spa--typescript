@@ -206,7 +206,7 @@
     },
     "sultan": {
       "title": "苏丹护理",
-      "description": "独特的四手护理，包含去角质和面膜。一小时的享受与彻底放松。"
+"description": "独特的四手护理。1小时的享受与彻底放松。"
     },
     "local": {
       "title": "局部按摩",
@@ -245,49 +245,49 @@
       "description": "热石深层加热肌肉。"
     }
   },
-  "specialOffers": {
-    "title": "雪松桶 & SPA 项目",
-    "offers": [
-      {
-        "title": "雪松桶 — 单人",
-        "description": "经典单人草本蒸汽疗法。"
-      },
-      {
-        "title": "VITA 平衡",
-        "description": "该疗程通过独特、综合的全身振动恢复系统进行。每次体验都独一无二！",
-        "durationLabel": "60 分钟"
-      },
-      {
-        "title": "雪松桶 — 双人",
-        "description": "双人同步蒸汽护理。"
-      },
-      {
-        "title": "雪松桶 + 身体护理",
-        "description": "雪松桶疗程 – 30 分钟，身体护理 – 60 分钟。",
-        "durationLabel": "60–90 分钟"
-      },
-      {
-        "title": "雪松桶 + 身体 + 面部护理",
-        "description": "全面身体与面部 SPA 护理。"
-      },
-      {
-        "title": "全身 SPA 护理",
-        "description": "身体护理 + 去角质 + 裹敷。"
-      },
-      {
-        "title": "抗橘皮项目",
-        "description": "去角质 + 裹敷 + 护理。"
-      },
-      {
-        "title": "愉悦瘦身方案",
-        "description": "雪松桶 + 泡澡 + 去角质 + 护理 + 裹敷 + 茶道仪式。"
-      },
-      {
-        "title": "放松项目",
-        "description": "去角质 + 裹敷 + 经典身体护理。"
-      }
-    ]
-  },
+"specialOffers": {
+  "title": "雪松桶和SPA疗程",
+  "offers": [
+    {
+      "title": "雪松桶 — 1人",
+      "description": "适用于1位宾客的经典植物蒸汽疗法。"
+    },
+    {
+      "title": "雪松桶 — 2人",
+      "description": "同时为2位宾客进行的蒸汽疗程。"
+    },
+    {
+      "title": "雪松桶 + 身体护理",
+      "description": "雪松桶 - 30分钟，身体护理 - 60分钟。",
+      "durationLabel": "60–90分钟"
+    },
+    {
+      "title": "雪松桶 + 身体 + 面部护理",
+      "description": "完整的身体与面部SPA护理。"
+    },
+    {
+      "title": "全身SPA护理",
+      "description": "身体护理 + 去角质 + 包裹护理。"
+    },
+    {
+      "title": "抗橘皮SPA计划",
+      "description": "去角质、包裹和护理。"
+    },
+    {
+      "title": "轻松享瘦",
+      "description": "雪松桶、浴疗、去角质、护理、包裹、茶艺仪式。"
+    },
+    {
+      "title": "放松SPA计划",
+      "description": "去角质、包裹、经典护理。"
+    },
+    {
+      "title": "VITA 平衡",
+      "description": "一种独特的全身振动恢复系统，每一次疗程都是独一无二的！",
+      "durationLabel": "60分钟"
+    }
+  ]
+},
   "footer": {
     "nav": {
       "services": "服务项目",
@@ -315,9 +315,7 @@
     }
   },
   "booking": {
-    "title": "您想预订吗？",
-    "yes": "是",
-    "no": "否"
+    "button": "预订"
   },
   "privacy": {
     "title": "个人数据处理政策",
@@ -360,5 +358,11 @@
     "description": "我们使用数据来改善服务。有关数据收集和使用的详细信息，请参阅",
     "linkText": "隐私政策",
     "closeButton": "关闭"
-  }
+  },
+  "promotion": {
+  "title": "🎁 特别优惠",
+  "paragraph1": "仅限本月：购买 5 次护理 — 立减 25%。",
+  "paragraph2": "购买 10 次护理 — 立减 30%！支持组合：例如 5 次按摩 + 5 次护理 = 30% 折扣。",
+  "button": "申请证书"
+}
 }

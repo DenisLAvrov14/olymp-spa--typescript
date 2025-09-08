@@ -206,7 +206,7 @@
     },
     "sultan": {
       "title": "Sultan",
-      "description": "Peeling ve maske ile benzersiz dört elli uygulama. Bir saatlik keyif ve tam rahatlama."
+"description": "Eşsiz 4 elli bir uygulama. 1 saatlik keyif ve tam rahatlama."
     },
     "local": {
       "title": "Lokal",
@@ -245,49 +245,49 @@
       "description": "Kasları derinlemesine ısıtmak için sıcak taşlar."
     }
   },
-  "specialOffers": {
-    "title": "Sedir Fıçısı ve SPA Programları",
-    "offers": [
-      {
-        "title": "Sedir Fıçısı — 1 Kişi",
-        "description": "Bir misafir için klasik fitosauna prosedürü."
-      },
-      {
-        "title": "VITA Denge",
-        "description": "Prosedür, tüm vücudun titreşimsel yenilenmesi için benzersiz ve kapsamlı bir sistem aracılığıyla gerçekleştirilir. Her seans kendine özgüdür!",
-        "durationLabel": "60 dakika"
-      },
-      {
-        "title": "Sedir Fıçısı — 2 Kişi",
-        "description": "İki misafir için ortak prosedür."
-      },
-      {
-        "title": "Sedir Fıçısı + Vücut Bakımı",
-        "description": "Fıçı - 30 dakika, vücut bakımı 60 dakika.",
-        "durationLabel": "60–90 dakika"
-      },
-      {
-        "title": "Sedir Fıçısı + Vücut Bakımı + Yüz Bakımı",
-        "description": "Vücut ve yüz içeren tam SPA prosedürü."
-      },
-      {
-        "title": "Kapsamlı SPA Bakımı",
-        "description": "Vücut bakımı + peeling + sargı."
-      },
-      {
-        "title": "Selülit Karşıtı SPA Programı",
-        "description": "Peeling, sargı, bakım."
-      },
-      {
-        "title": "Keyifli Kilo Verme",
-        "description": "Sedir fıçısı, banyo, peeling, bakım, sargı, çay seremonisi."
-      },
-      {
-        "title": "Rahatlatıcı SPA Programı",
-        "description": "Peeling, sargı, klasik bakım."
-      }
-    ]
-  },
+ "specialOffers": {
+  "title": "Sedir Fıçılar ve SPA Programları",
+  "offers": [
+    {
+      "title": "Sedir fıçısı — 1 kişi",
+      "description": "Bir misafir için klasik fitosauna uygulaması."
+    },
+    {
+      "title": "Sedir fıçısı — 2 kişi",
+      "description": "Aynı anda iki misafir için buhar uygulaması."
+    },
+    {
+      "title": "Sedir fıçısı + vücut bakımı",
+      "description": "Fıçı - 30 dakika, vücut bakımı - 60 dakika.",
+      "durationLabel": "60–90 dakika"
+    },
+    {
+      "title": "Sedir fıçısı + vücut + yüz bakımı",
+      "description": "Vücut ve yüz için tam SPA bakımı."
+    },
+    {
+      "title": "Kapsamlı SPA bakımı",
+      "description": "Vücut bakımı + peeling + sargı."
+    },
+    {
+      "title": "Selülit karşıtı SPA programı",
+      "description": "Peeling, sargı, bakım."
+    },
+    {
+      "title": "Keyifle zayıfla",
+      "description": "Sedir fıçısı, banyo, peeling, bakım, sargı, çay seremonisi."
+    },
+    {
+      "title": "Rahatlatıcı SPA programı",
+      "description": "Peeling, sargı, klasik bakım."
+    },
+    {
+      "title": "VITA Denge",
+      "description": "Tüm vücut için titreşimsel iyileştirme sağlayan eşsiz bir sistem. Her seans benzersizdir!",
+      "durationLabel": "60 dakika"
+    }
+  ]
+},
   "footer": {
     "nav": {
       "services": "Hizmetler",
@@ -315,9 +315,7 @@
     }
   },
   "booking": {
-    "title": "Rezervasyon yapmak ister misiniz?",
-    "yes": "Evet",
-    "no": "Hayır"
+    "button": "Rezervasyon Yap"
   },
   "privacy": {
     "title": "Kişisel Verilerin İşlenmesine İlişkin Politika",
@@ -359,5 +357,11 @@
     "description": "Hizmetimizi geliştirmek için verileri kullanıyoruz. Veri toplama ve kullanımı hakkında daha fazla bilgi için ",
     "linkText": "gizlilik politikası",
     "closeButton": "Kapat"
-  }
+  },
+  "promotion": {
+  "title": "🎁 Özel Teklif",
+  "paragraph1": "Sadece bu ay: 5 uygulama satın alın — %25 indirim kazanın.",
+  "paragraph2": "10 uygulama alırsanız — %30 indirim! Karıştırabilirsiniz: örneğin, 5 masaj ve 5 bakım = %30 indirim.",
+  "button": "Sertifika al"
+}
 }
