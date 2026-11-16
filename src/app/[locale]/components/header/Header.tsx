@@ -10,13 +10,14 @@ import { FiPhone } from "react-icons/fi";
 const Header = () => {
   const pathname = usePathname();
   const currentLocale = pathname?.split("/")[1] || "ru";
-  const t = useTranslations("header.nav");
+  const tNav = useTranslations("header.nav");
+  const tAddress = useTranslations("header.address");
 
   const navLinks = [
-    { href: "#services", label: t("services") },
-    { href: "#about", label: t("about") },
-    { href: "#reviews", label: t("reviews") },
-    { href: "#contact", label: t("contacts") },
+    { href: "#services", label: tNav("services") },
+    { href: "#about", label: tNav("about") },
+    { href: "#reviews", label: tNav("reviews") },
+    { href: "#contact", label: tNav("contacts") },
   ];
 
   return (
@@ -57,7 +58,7 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className="text-[#EDEAE4] hover:underline"
               >
-                Отель Московские ворота
+                {tAddress("hotel")}
               </a>
               <a
                 href="https://yandex.com.ge/maps/-/CLUM486w"
@@ -65,7 +66,7 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className="text-[#EDEAE4] hover:underline"
               >
-                Московский проспект 97
+                {tAddress("street")}
               </a>
             </div>
 
@@ -111,8 +112,8 @@ const Header = () => {
               rel="noopener noreferrer"
               className="text-sm text-[#EDEAE4] leading-tight hover:underline"
             >
-              Отель Московские ворота <br />
-              Московский проспект 97
+              {tAddress("hotel")} <br />
+              {tAddress("street")}
             </a>
           </div>
 
@@ -153,8 +154,8 @@ const Header = () => {
               rel="noopener noreferrer"
               className="text-xs text-[#EDEAE4] leading-tight hover:underline"
             >
-              Отель Московские ворота <br />
-              Московский проспект 97
+              {tAddress("hotel")} <br />
+              {tAddress("street")}
             </a>
           </div>
 

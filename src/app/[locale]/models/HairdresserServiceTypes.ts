@@ -1,6 +1,11 @@
 export interface HairdresserServicePrice {
   time: string;
-  cost: number;
+  cost: number | string;
+  /** Старая цена — показывается зачёркнутой рядом с новой (для акций) */
+  oldCost?: number;
+  /** Текст перед ценой, например «от» */
+  prefix?: string;
+  alignLeft?: boolean;
 }
 
 export interface HairdresserServiceType {
@@ -8,4 +13,6 @@ export interface HairdresserServiceType {
   title: string;
   description: string;
   prices: HairdresserServicePrice[];
+  /** Значок на фото, например «−40%» */
+  badge?: string;
 }

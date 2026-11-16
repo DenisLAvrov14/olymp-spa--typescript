@@ -9,6 +9,7 @@
   },
   "duration": {
     "30": "30 minutes",
+    "40": "40 minutes",
     "60": "60 minutes",
     "90": "90 minutes",
     "120": "120 minutes",
@@ -187,6 +188,45 @@
         "options": {
           "all": "All lengths"
         }
+      },
+      {
+        "title": "Men's haircut",
+        "description": "A men's haircut tailored to your head shape, hair texture, and preferences."
+      },
+      {
+        "title": "Women's haircut",
+        "description": "A women's haircut tailored to hair length, texture, and the desired shape."
+      },
+      {
+        "title": "Hairstyle",
+        "description": "A festive or evening hairstyle for any occasion.",
+        "options": {
+          "short": "Short hair",
+          "medium": "Medium hair",
+          "long": "Long hair"
+        }
+      }
+    ]
+  },
+  "makeupServices": {
+    "title": "Makeup & Hairstyles",
+    "from": "from",
+    "services": [
+      {
+        "title": "Nude makeup",
+        "description": "Natural makeup that enhances your beauty and stays fresh all day."
+      },
+      {
+        "title": "Evening makeup",
+        "description": "An expressive look for a celebration, special occasion or night out."
+      },
+      {
+        "title": "Lifting makeup",
+        "description": "Makeup with a lifting effect: visually refreshes and gently sculpts the face."
+      },
+      {
+        "title": "Makeup + hairstyle",
+        "description": "A complete look: makeup and hairstyle for your event."
       }
     ]
   },
@@ -206,7 +246,7 @@
     },
     "sultan": {
       "title": "Sultan",
-"description": "A unique 4-hand procedure. 1 hour of pleasure and complete relaxation."
+      "description": "A unique 4-hand procedure. 1 hour of pleasure and complete relaxation."
     },
     "local": {
       "title": "Local",
@@ -243,51 +283,50 @@
     "stone": {
       "title": "Stone therapy",
       "description": "Hot stones for deep muscle warming."
+    },
+    "anticel": {
+      "title": "Anti-Cellulite Massage",
+      "description": "An intensive tissue treatment aimed at improving skin tone and visibly reducing body volume."
     }
   },
- "specialOffers": {
-  "title": "Cedar Barrels & SPA Programs",
-  "offers": [
-    {
-      "title": "Cedar barrel — 1 person",
-      "description": "Classic phyto-sauna procedure for one guest."
-    },
-    {
-      "title": "Cedar barrel — 2 persons",
-      "description": "Steam procedure for two guests at once."
-    },
-    {
-      "title": "Cedar barrel + body care",
-      "description": "Barrel - 30 minutes, body care - 60 minutes.",
-      "durationLabel": "60–90 minutes"
-    },
-    {
-      "title": "Cedar barrel + body + facial care",
-      "description": "Complete SPA treatment for body and face."
-    },
-    {
-      "title": "Comprehensive SPA treatment",
-      "description": "Body care + scrub + wrap."
-    },
-    {
-      "title": "Anti-cellulite SPA program",
-      "description": "Scrub, wrap, care."
-    },
-    {
-      "title": "Slim with pleasure",
-      "description": "Cedar barrel, bath, scrub, care, wrap, tea ceremony."
-    },
-    {
-      "title": "Relaxing SPA program",
-      "description": "Scrubbing, wrapping, classic care."
-    },
-    {
-      "title": "VITA Balance",
-      "description": "A unique comprehensive procedure for full-body vibrational recovery. Every session is unique!",
-      "durationLabel": "60 minutes"
-    }
-  ]
-},
+  "specialOffers": {
+    "title": "Cedar Barrels & SPA Programs",
+    "offers": [
+      {
+        "title": "Cedar barrel — 1 person",
+        "description": "Classic phyto-sauna procedure for one guest."
+      },
+      {
+        "title": "Cedar barrel — 2 persons",
+        "description": "Steam procedure for two guests at once."
+      },
+      {
+        "title": "Cedar barrel + body care",
+        "description": "Barrel - 30 minutes, body care - 60 minutes.",
+        "durationLabel": "60–90 minutes"
+      },
+      {
+        "title": "Cedar barrel + body + facial care",
+        "description": "Complete SPA treatment for body and face."
+      },
+      {
+        "title": "Comprehensive SPA treatment",
+        "description": "Body care + scrub + wrap."
+      },
+      {
+        "title": "Anti-cellulite SPA program",
+        "description": "Scrub, wrap, care."
+      },
+      {
+        "title": "Slim with pleasure",
+        "description": "Cedar barrel, bath, scrub, care, wrap, tea ceremony."
+      },
+      {
+        "title": "Relaxing SPA program",
+        "description": "Scrubbing, wrapping, classic care."
+      }
+    ]
+  },
   "footer": {
     "nav": {
       "services": "Services",
@@ -309,9 +348,13 @@
   "header": {
     "nav": {
       "services": "Services",
-      "about": "About",
+      "about": "About Us",
       "reviews": "Reviews",
       "contacts": "Contacts"
+    },
+    "address": {
+      "hotel": "Moscow Gates Hotel",
+      "street": "97A Moskovsky Avenue"
     }
   },
   "booking": {
@@ -359,9 +402,137 @@
     "closeButton": "Close"
   },
   "promotion": {
-  "title": "🎁 Special Offer",
-  "paragraph1": "This month only: Buy 5 treatments — get 25% off.",
-  "paragraph2": "And when you buy 10 treatments — 30% off! You can mix and match: for example, 5 massages and 5 facials = 30% off.",
-  "button": "Get a certificate"
-}
+    "title": "🎁 Special Offer",
+    "paragraph1": "This month only: Buy 5 treatments — get 25% off.",
+    "paragraph2": "And when you buy 10 treatments — 25% off! You can mix and match: for example, 5 massages and 5 facials = 25% off.",
+    "button": "Get a certificate"
+  },
+  "promoSlider": {
+    "slides": [
+      {
+        "title": "Gift Certificates",
+        "lines": [
+          "✨ Give a gift to remember!",
+          "A gift certificate is emotions, care, and the chance to choose what you love.",
+          "🎁 Perfect for any occasion!"
+        ]
+      },
+      {
+        "title": "Discount Passes",
+        "lines": [
+          "🌿 Save money and take care of yourself regularly.",
+          "Available now:",
+          "5 visits with 20% off",
+          "10 visits with 25% off",
+          "✨ Self-care with pleasure and savings!"
+        ]
+      },
+      {
+        "title": "SPA Programs",
+        "lines": [
+          "💆 Treat yourself to luxury for body and soul.",
+          "Comprehensive SPA programs for relaxation, beauty, and recovery.",
+          "🌸 Give yourself moments of harmony and happiness."
+        ]
+      },
+      {
+        "title": "Phyto Sauna",
+        "lines": [
+          "🔥 Health in every breath!",
+          "The cedar barrel strengthens immunity, removes toxins, and restores energy.",
+          "🌿 Natural recovery for body and spirit."
+        ]
+      },
+      {
+        "title": "Bachelorette parties",
+        "lines": [
+          "🎉 Celebrate with or without an occasion!",
+          "Organize an unforgettable bachelorette party for up to 10 people.",
+          "🥂 Fun, relaxation and a SPA atmosphere all your friends will enjoy."
+        ]
+      },
+      {
+        "title": "Happy hours",
+        "lines": [
+          "⏰ From 12:00 to 16:00 — a special offer for your relaxation.",
+          "Two services for the price of one: 1 + 1 = 1",
+          "✨ A great reason to treat yourself to more care and relaxation.",
+          "The offer applies to all salon services except brow and hair services."
+        ]
+      }
+    ]
+  },
+  "bonusOffer": {
+    "title": "Special Offers",
+    "spaForTwo": {
+      "description": "SPA for two\nCedar barrel, scrub, body wrap, facial massage, mask — 120 minutes of pure pleasure!\n16,000 ₽",
+      "note": ""
+    },
+    "makeupSale": {
+      "description": "🔥 Until the end of the New Year holidays — 40% off all makeup and hairstyles!\nValid until January 14.",
+      "note": "",
+      "link": "See prices"
+    },
+    "offer2": {
+      "description": "Come with a friend and get a phyto-sauna for two as a gift!",
+      "note": "Valid for new guests only."
+    },
+    "offer3": {
+      "description": "Double the care, great savings!\nThe perfect time to pamper yourself and refresh your skin for the New Year.\nGet 20% off a scrub and body wrap. Book now. Valid until January 14.",
+      "note": ""
+    },
+    "offer4": {
+      "description": "Happy hours!\nFrom 12:00 to 16:00 — two services for the price of one: 1 + 1 = 1.\nChoose your second service: 🦶 a focused foot massage, 🤲 hand massage or 💆 head massage.",
+      "note": "The offer applies to all salon services except brow and hair services."
+    },
+    "offer7": {
+      "description": "Manicure + pedicure with coating\nSpecial price — 8,700 ₽, 40% discount.",
+      "note": ""
+    },
+    "offer8": {
+      "description": "Brows / eyelash lamination\n500 ₽ coupon for your first visit with a bill from 1,200 ₽.",
+      "note": ""
+    }
+  },
+  "nailPrice": {
+    "fitmostPrice": "Fitmost price, ₽",
+    "title": "Manicure and pedicure",
+    "service": "Service",
+    "price": "Base price, ₽",
+    "manicure": {
+      "title": "MANICURE",
+      "services": [
+        "Polish removal",
+        "Removal + manicure + gel strengthening",
+        "Removal + manicure + base coat",
+        "Manicure + gel coating",
+        "Manicure + base coat",
+        "Combined manicure",
+        "Japanese manicure",
+        "French tips on all nails",
+        "Nail art on all nails",
+        "Nail art — 1 nail",
+        "Nail extensions with dual forms",
+        "Nail extension refill *"
+      ]
+    },
+    "pedicure": {
+      "title": "PEDICURE",
+      "services": [
+        "Removal + pedicure + polish (full foot and toe care)",
+        "Pedicure + polish (without removal)",
+        "Pedicure without polish (full foot and toe care)",
+        "Pedicure (polish on toes only)",
+        "Paraffin treatment (hands / feet)"
+      ]
+    },
+    "offers": {
+      "title": "SPECIAL OFFERS",
+      "services": [
+        "Combined manicure + pedicure without polish",
+        "Removal + manicure + coating (base / gel) + removal + pedicure + polish (full foot and toe care)"
+      ]
+    },
+    "coupon": "Coupon for 500 ₽ off one visit (minimum spend 1,000 ₽)"
+  }
 }

@@ -9,7 +9,7 @@ const Footer = () => {
 
   const links = [
     { href: "#services", label: t("nav.services") },
-    { href: "#special-offers", label: t("nav.specialOffers") },
+    { href: "#bonus-offer", label: t("nav.specialOffers") },
     { href: "#reviews", label: t("nav.reviews") },
     { href: "#contacts", label: t("nav.contacts") },
   ];
@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center justify-between gap-10 text-center md:flex-row md:items-start md:text-left">
         {/* Логотип и навигация */}
         <div>
-          <h3 className="text-xl font-bold">Olimp SPA</h3>
+          <h3 className="text-xl font-bold">Олимп SPA</h3>
           <nav className="mt-4">
             <ul className="grid grid-cols-2 gap-2">
               {links.map((item) => (

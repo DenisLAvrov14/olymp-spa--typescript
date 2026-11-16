@@ -31,7 +31,13 @@ export async function getMassages(): Promise<MassageType[]> {
     }
 
     const payload = await res.json();
-    const items: any[] = payload.data;
+    const items: {
+      id: number | string;
+      title: string;
+      description: string;
+      image?: { directus_files_id?: { url?: string } };
+      prices: unknown;
+    }[] = payload.data;
 
     // Преобразуем «сырные» записи в ваш интерфейс MassageType
     return items.map((m) => ({

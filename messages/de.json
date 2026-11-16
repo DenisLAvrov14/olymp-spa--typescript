@@ -9,6 +9,7 @@
   },
   "duration": {
     "30": "30 Minuten",
+    "40": "40 Minuten",
     "60": "60 Minuten",
     "90": "90 Minuten",
     "120": "120 Minuten",
@@ -187,6 +188,45 @@
         "options": {
           "all": "Alle Längen"
         }
+      },
+      {
+        "title": "Herrenhaarschnitt",
+        "description": "Herrenhaarschnitt abgestimmt auf Kopfform, Haarstruktur und Ihre Wünsche."
+      },
+      {
+        "title": "Damenhaarschnitt",
+        "description": "Damenhaarschnitt abgestimmt auf Haarlänge, Haarstruktur und die gewünschte Form."
+      },
+      {
+        "title": "Frisur",
+        "description": "Festliche oder Abendfrisur für jeden Anlass.",
+        "options": {
+          "short": "Kurzes Haar",
+          "medium": "Mittellanges Haar",
+          "long": "Langes Haar"
+        }
+      }
+    ]
+  },
+  "makeupServices": {
+    "title": "Make-up & Frisuren",
+    "from": "ab",
+    "services": [
+      {
+        "title": "Nude-Make-up",
+        "description": "Natürliches Make-up, das Ihre Schönheit betont und den ganzen Tag frisch aussieht."
+      },
+      {
+        "title": "Abend-Make-up",
+        "description": "Ein ausdrucksstarker Look für Feiern, besondere Anlässe oder einen besonderen Abend."
+      },
+      {
+        "title": "Lifting-Make-up",
+        "description": "Make-up mit Lifting-Effekt: frischt optisch auf und modelliert sanft die Gesichtszüge."
+      },
+      {
+        "title": "Make-up + Frisur",
+        "description": "Der komplette Look: Make-up und Frisur für Ihren Anlass."
       }
     ]
   },
@@ -206,7 +246,7 @@
     },
     "sultan": {
       "title": "Sultan",
-"description": "Einzigartige 4-Hand-Anwendung. 1 Stunde voller Genuss und völliger Entspannung."
+      "description": "Einzigartige 4-Hand-Anwendung. 1 Stunde voller Genuss und völliger Entspannung."
     },
     "local": {
       "title": "Lokal",
@@ -243,51 +283,50 @@
     "stone": {
       "title": "Steintherapie",
       "description": "Heiße Steine zur tiefen Muskelwärmung."
+    },
+    "anticel": {
+      "title": "Anticellulite-Massage",
+      "description": "Intensive Gewebebehandlung zur Verbesserung der Hautstraffung und sichtbaren Reduzierung des Körperumfangs."
     }
   },
   "specialOffers": {
-  "title": "Zedernfässer & SPA-Programme",
-  "offers": [
-    {
-      "title": "Zedernfass – 1 Person",
-      "description": "Klassische Phyto-Sauna-Anwendung für einen Gast."
-    },
-    {
-      "title": "Zedernfass – 2 Personen",
-      "description": "Dampfanwendung für zwei Gäste gleichzeitig."
-    },
-    {
-      "title": "Zedernfass + Körperpflege",
-      "description": "Fass – 30 Minuten, Körperpflege – 60 Minuten.",
-      "durationLabel": "60–90 Minuten"
-    },
-    {
-      "title": "Zedernfass + Körper- und Gesichtspflege",
-      "description": "Vollständige SPA-Behandlung für Körper und Gesicht."
-    },
-    {
-      "title": "Umfassende SPA-Behandlung",
-      "description": "Körperpflege + Peeling + Wickel."
-    },
-    {
-      "title": "Anti-Cellulite-SPA-Programm",
-      "description": "Peeling, Wickel, Pflege."
-    },
-    {
-      "title": "Schlank mit Genuss",
-      "description": "Zedernfass, Bad, Peeling, Pflege, Wickel, Teezeremonie."
-    },
-    {
-      "title": "Entspannendes SPA-Programm",
-      "description": "Peeling, Wickel, klassische Pflege."
-    },
-    {
-      "title": "VITA-Balance",
-      "description": "Einzigartige ganzheitliche Vibrationserholung des gesamten Körpers. Jede Sitzung ist einzigartig!",
-      "durationLabel": "60 Minuten"
-    }
-  ]
-},
+    "title": "Zedernfässer & SPA-Programme",
+    "offers": [
+      {
+        "title": "Zedernfass – 1 Person",
+        "description": "Klassische Phyto-Sauna-Anwendung für einen Gast."
+      },
+      {
+        "title": "Zedernfass – 2 Personen",
+        "description": "Dampfanwendung für zwei Gäste gleichzeitig."
+      },
+      {
+        "title": "Zedernfass + Körperpflege",
+        "description": "Fass – 30 Minuten, Körperpflege – 60 Minuten.",
+        "durationLabel": "60–90 Minuten"
+      },
+      {
+        "title": "Zedernfass + Körper- und Gesichtspflege",
+        "description": "Vollständige SPA-Behandlung für Körper und Gesicht."
+      },
+      {
+        "title": "Umfassende SPA-Behandlung",
+        "description": "Körperpflege + Peeling + Wickel."
+      },
+      {
+        "title": "Anti-Cellulite-SPA-Programm",
+        "description": "Peeling, Wickel, Pflege."
+      },
+      {
+        "title": "Schlank mit Genuss",
+        "description": "Zedernfass, Bad, Peeling, Pflege, Wickel, Teezeremonie."
+      },
+      {
+        "title": "Entspannendes SPA-Programm",
+        "description": "Peeling, Wickel, klassische Pflege."
+      }
+    ]
+  },
   "footer": {
     "nav": {
       "services": "Dienstleistungen",
@@ -311,10 +350,14 @@
       "services": "Dienstleistungen",
       "about": "Über uns",
       "reviews": "Bewertungen",
-      "contacts": "Kontakt"
+      "contacts": "Kontakte"
+    },
+    "address": {
+      "hotel": "Hotel Moskauer Tore",
+      "street": "Moskovsky Prospekt 97A"
     }
   },
-"booking": {
+  "booking": {
     "button": "Buchen"
   },
   "privacy": {
@@ -359,9 +402,137 @@
     "closeButton": "Schließen"
   },
   "promotion": {
-  "title": "🎁 Sonderangebot",
-  "paragraph1": "Nur diesen Monat: Kaufen Sie 5 Behandlungen – erhalten Sie 25% Rabatt.",
-  "paragraph2": "Und beim Kauf von 10 Behandlungen – 30% Rabatt! Kombinieren ist möglich: z. B. 5 Massagen und 5 Pflegeanwendungen = 30% Rabatt.",
-  "button": "Zertifikat anfordern"
-}
+    "title": "🎁 Sonderangebot",
+    "paragraph1": "Nur diesen Monat: Kaufen Sie 5 Behandlungen – erhalten Sie 25% Rabatt.",
+    "paragraph2": "Und beim Kauf von 10 Behandlungen – 25% Rabatt! Kombinieren ist möglich: z. B. 5 Massagen und 5 Pflegeanwendungen = 25% Rabatt.",
+    "button": "Zertifikat anfordern"
+  },
+  "promoSlider": {
+    "slides": [
+      {
+        "title": "Geschenkgutscheine",
+        "lines": [
+          "✨ Machen Sie ein Geschenk, das in Erinnerung bleibt!",
+          "Ein Gutschein bedeutet Emotionen, Fürsorge und die Möglichkeit, das Beste auszuwählen.",
+          "🎁 Perfekt für jeden Anlass!"
+        ]
+      },
+      {
+        "title": "Abonnements mit Rabatt",
+        "lines": [
+          "🌿 Sparen Sie und kümmern Sie sich regelmäßig um sich selbst.",
+          "Nur jetzt:",
+          "5 Besuche mit 20% Rabatt",
+          "10 Besuche mit 25% Rabatt",
+          "✨ Selbstfürsorge mit Freude und Vorteil!"
+        ]
+      },
+      {
+        "title": "SPA-Programme",
+        "lines": [
+          "💆 Gönnen Sie sich Luxus für Körper und Seele.",
+          "Umfassende SPA-Programme für Entspannung, Schönheit und Erholung.",
+          "🌸 Schenken Sie sich Momente der Harmonie und des Glücks."
+        ]
+      },
+      {
+        "title": "Phyto-Sauna",
+        "lines": [
+          "🔥 Gesundheit bei jedem Atemzug!",
+          "Das Zedernfass stärkt das Immunsystem, entfernt Toxine und gibt Energie zurück.",
+          "🌿 Natürliche Erholung für Körper und Geist."
+        ]
+      },
+      {
+        "title": "Junggesellinnenabschiede",
+        "lines": [
+          "🎉 Feiern Sie mit oder ohne Anlass!",
+          "Organisieren Sie einen unvergesslichen Junggesellinnenabschied für bis zu 10 Personen.",
+          "🥂 Spaß, Erholung und eine SPA-Atmosphäre, die alle Freundinnen genießen."
+        ]
+      },
+      {
+        "title": "Happy Hours",
+        "lines": [
+          "⏰ Von 12:00 bis 16:00 Uhr — ein besonderes Angebot für Ihre Erholung.",
+          "Zwei Anwendungen zum Preis von einer: 1 + 1 = 1",
+          "✨ Gönnen Sie sich noch mehr Pflege und Entspannung.",
+          "Das Angebot gilt für alle Salonleistungen außer Augenbrauen- und Friseurdienstleistungen."
+        ]
+      }
+    ]
+  },
+  "bonusOffer": {
+    "title": "Angebote",
+    "spaForTwo": {
+      "description": "SPA zu zweit\nZedernfass, Peeling, Körperpackung, Gesichtsmassage, Maske — 120 Minuten Genuss!\n16.000 ₽",
+      "note": ""
+    },
+    "makeupSale": {
+      "description": "🔥 Bis zum Ende der Neujahrsfeiertage — 40 % Rabatt auf alle Make-ups und Frisuren!\nGültig bis 14.01.",
+      "note": "",
+      "link": "Preise ansehen"
+    },
+    "offer2": {
+      "description": "Komm mit einem Freund und erhalte eine Kräutersauna für zwei geschenkt!",
+      "note": "Nur für neue Gäste gültig."
+    },
+    "offer3": {
+      "description": "Doppelte Pflege zum Vorteilspreis!\nDie ideale Zeit, sich zum neuen Jahr verwöhnen zu lassen und die Haut zu erneuern.\nPeeling und Körperpackung mit 20 % Rabatt. Buchen Sie jetzt. Gültig bis 14.01.",
+      "note": ""
+    },
+    "offer4": {
+      "description": "Happy Hours!\nVon 12:00 bis 16:00 Uhr — zwei Anwendungen zum Preis von einer: 1 + 1 = 1.\nWählen Sie die zweite Anwendung: 🦶 Fußmassage, 🤲 Handmassage oder 💆 Kopfmassage.",
+      "note": "Das Angebot gilt für alle Salonleistungen außer Augenbrauen- und Friseurdienstleistungen."
+    },
+    "offer7": {
+      "description": "Maniküre + Pediküre mit Beschichtung\nSonderpreis — 8.700 ₽, 40% Rabatt.",
+      "note": ""
+    },
+    "offer8": {
+      "description": "Augenbrauen / Wimpernlaminierung\n500 ₽ Gutschein für den ersten Besuch bei einem Rechnungsbetrag ab 1.200 ₽.",
+      "note": ""
+    }
+  },
+  "nailPrice": {
+    "fitmostPrice": "Fitmost-Preis, ₽",
+    "title": "Maniküre und Pediküre",
+    "service": "Leistung",
+    "price": "Basispreis, ₽",
+    "manicure": {
+      "title": "MANIKÜRE",
+      "services": [
+        "Entfernen der Beschichtung",
+        "Entfernung + Maniküre + Gelverstärkung",
+        "Entfernung + Maniküre + Base Coat",
+        "Maniküre + Gelbeschichtung",
+        "Maniküre + Base Coat",
+        "Kombinierte Maniküre",
+        "Japanische Maniküre",
+        "French auf allen Nägeln",
+        "Nageldesign auf allen Nägeln",
+        "Nageldesign — 1 Nagel",
+        "Nagelverlängerung mit Dual Forms",
+        "Auffüllen der Nagelverlängerung *"
+      ]
+    },
+    "pedicure": {
+      "title": "PEDIKÜRE",
+      "services": [
+        "Entfernung + Pediküre + Lack (vollständige Fuß- und Zehenpflege)",
+        "Pediküre + Lack (ohne Entfernung)",
+        "Pediküre ohne Lack (vollständige Fuß- und Zehenpflege)",
+        "Pediküre (nur Zehennägel lackieren)",
+        "Paraffinbehandlung (Hände / Füße)"
+      ]
+    },
+    "offers": {
+      "title": "SONDERANGEBOTE",
+      "services": [
+        "Kombinierte Maniküre + Pediküre ohne Lack",
+        "Entfernung + Maniküre + Beschichtung (Base / Gel) + Entfernung + Pediküre + Lack (vollständige Fuß- und Zehenpflege)"
+      ]
+    },
+    "coupon": "Gutschein über 500 ₽ Rabatt für einen Besuch (ab 1.000 ₽ Rechnungsbetrag)"
+  }
 }

@@ -9,6 +9,7 @@
   },
   "duration": {
     "30": "30 dakika",
+    "40": "40 dakika",
     "60": "60 dakika",
     "90": "90 dakika",
     "120": "120 dakika",
@@ -187,6 +188,45 @@
         "options": {
           "all": "Tüm uzunluklar"
         }
+      },
+      {
+        "title": "Erkek saç kesimi",
+        "description": "Baş şeklinize, saç yapınıza ve tercihlerinize uygun erkek saç kesimi."
+      },
+      {
+        "title": "Kadın saç kesimi",
+        "description": "Saç uzunluğunuza, saç yapınıza ve istediğiniz şekle uygun kadın saç kesimi."
+      },
+      {
+        "title": "Saç modeli",
+        "description": "Her durum için şık veya gece saç modeli.",
+        "options": {
+          "short": "Kısa saç",
+          "medium": "Orta boy saç",
+          "long": "Uzun saç"
+        }
+      }
+    ]
+  },
+  "makeupServices": {
+    "title": "Makyaj ve Saç Modelleri",
+    "from": "başlangıç",
+    "services": [
+      {
+        "title": "Nude makyaj",
+        "description": "Güzelliğinizi ön plana çıkaran ve gün boyu taze görünen doğal makyaj."
+      },
+      {
+        "title": "Gece makyajı",
+        "description": "Kutlama, özel gün veya özel bir akşam için etkileyici bir görünüm."
+      },
+      {
+        "title": "Lifting makyaj",
+        "description": "Lifting etkili makyaj: yüzü görsel olarak tazeler ve hatlarını yumuşakça belirginleştirir."
+      },
+      {
+        "title": "Makyaj + saç modeli",
+        "description": "Eksiksiz görünüm: etkinliğiniz için makyaj ve saç modeli."
       }
     ]
   },
@@ -206,7 +246,7 @@
     },
     "sultan": {
       "title": "Sultan",
-"description": "Eşsiz 4 elli bir uygulama. 1 saatlik keyif ve tam rahatlama."
+      "description": "Eşsiz 4 elli bir uygulama. 1 saatlik keyif ve tam rahatlama."
     },
     "local": {
       "title": "Lokal",
@@ -243,51 +283,50 @@
     "stone": {
       "title": "Taş Terapisi",
       "description": "Kasları derinlemesine ısıtmak için sıcak taşlar."
+    },
+    "anticel": {
+      "title": "Selülit Karşıtı Masaj",
+      "description": "Cilt tonunu iyileştirmek ve vücut ölçülerini gözle görülür şekilde azaltmak için yoğun doku çalışması."
     }
   },
- "specialOffers": {
-  "title": "Sedir Fıçılar ve SPA Programları",
-  "offers": [
-    {
-      "title": "Sedir fıçısı — 1 kişi",
-      "description": "Bir misafir için klasik fitosauna uygulaması."
-    },
-    {
-      "title": "Sedir fıçısı — 2 kişi",
-      "description": "Aynı anda iki misafir için buhar uygulaması."
-    },
-    {
-      "title": "Sedir fıçısı + vücut bakımı",
-      "description": "Fıçı - 30 dakika, vücut bakımı - 60 dakika.",
-      "durationLabel": "60–90 dakika"
-    },
-    {
-      "title": "Sedir fıçısı + vücut + yüz bakımı",
-      "description": "Vücut ve yüz için tam SPA bakımı."
-    },
-    {
-      "title": "Kapsamlı SPA bakımı",
-      "description": "Vücut bakımı + peeling + sargı."
-    },
-    {
-      "title": "Selülit karşıtı SPA programı",
-      "description": "Peeling, sargı, bakım."
-    },
-    {
-      "title": "Keyifle zayıfla",
-      "description": "Sedir fıçısı, banyo, peeling, bakım, sargı, çay seremonisi."
-    },
-    {
-      "title": "Rahatlatıcı SPA programı",
-      "description": "Peeling, sargı, klasik bakım."
-    },
-    {
-      "title": "VITA Denge",
-      "description": "Tüm vücut için titreşimsel iyileştirme sağlayan eşsiz bir sistem. Her seans benzersizdir!",
-      "durationLabel": "60 dakika"
-    }
-  ]
-},
+  "specialOffers": {
+    "title": "Sedir Fıçılar ve SPA Programları",
+    "offers": [
+      {
+        "title": "Sedir fıçısı — 1 kişi",
+        "description": "Bir misafir için klasik fitosauna uygulaması."
+      },
+      {
+        "title": "Sedir fıçısı — 2 kişi",
+        "description": "Aynı anda iki misafir için buhar uygulaması."
+      },
+      {
+        "title": "Sedir fıçısı + vücut bakımı",
+        "description": "Fıçı - 30 dakika, vücut bakımı - 60 dakika.",
+        "durationLabel": "60–90 dakika"
+      },
+      {
+        "title": "Sedir fıçısı + vücut + yüz bakımı",
+        "description": "Vücut ve yüz için tam SPA bakımı."
+      },
+      {
+        "title": "Kapsamlı SPA bakımı",
+        "description": "Vücut bakımı + peeling + sargı."
+      },
+      {
+        "title": "Selülit karşıtı SPA programı",
+        "description": "Peeling, sargı, bakım."
+      },
+      {
+        "title": "Keyifle zayıfla",
+        "description": "Sedir fıçısı, banyo, peeling, bakım, sargı, çay seremonisi."
+      },
+      {
+        "title": "Rahatlatıcı SPA programı",
+        "description": "Peeling, sargı, klasik bakım."
+      }
+    ]
+  },
   "footer": {
     "nav": {
       "services": "Hizmetler",
@@ -312,6 +351,10 @@
       "about": "Hakkımızda",
       "reviews": "Yorumlar",
       "contacts": "İletişim"
+    },
+    "address": {
+      "hotel": "Moskova Kapıları Oteli",
+      "street": "Moskovsky Caddesi 97A"
     }
   },
   "booking": {
@@ -359,9 +402,137 @@
     "closeButton": "Kapat"
   },
   "promotion": {
-  "title": "🎁 Özel Teklif",
-  "paragraph1": "Sadece bu ay: 5 uygulama satın alın — %25 indirim kazanın.",
-  "paragraph2": "10 uygulama alırsanız — %30 indirim! Karıştırabilirsiniz: örneğin, 5 masaj ve 5 bakım = %30 indirim.",
-  "button": "Sertifika al"
-}
+    "title": "🎁 Özel Teklif",
+    "paragraph1": "Sadece bu ay: 5 uygulama satın alın — %25 indirim kazanın.",
+    "paragraph2": "10 uygulama alırsanız — %25 indirim! Karıştırabilirsiniz: örneğin, 5 masaj ve 5 bakım = %25 indirim.",
+    "button": "Sertifika al"
+  },
+  "promoSlider": {
+    "slides": [
+      {
+        "title": "Hediye Sertifikaları",
+        "lines": [
+          "✨ Unutulmaz bir hediye verin!",
+          "Hediye sertifikası; duygu, özen ve kendinize en iyisini seçme fırsatıdır.",
+          "🎁 Her özel gün için mükemmel!"
+        ]
+      },
+      {
+        "title": "İndirimli Paketler",
+        "lines": [
+          "🌿 Tasarruf edin ve düzenli olarak kendinize bakın.",
+          "Sadece şimdi:",
+          "5 seans %20 indirim",
+          "10 seans %25 indirim",
+          "✨ Keyifli ve avantajlı bakım!"
+        ]
+      },
+      {
+        "title": "SPA Programları",
+        "lines": [
+          "💆 Ruhunuza ve bedeninize lüks bir dokunuş yapın.",
+          "Rahatlama, güzellik ve yenilenme için kapsamlı SPA programları.",
+          "🌸 Kendinize mutluluk ve huzur anları armağan edin."
+        ]
+      },
+      {
+        "title": "Fitosauna",
+        "lines": [
+          "🔥 Her nefeste sağlık!",
+          "Sedir fıçısı bağışıklığı güçlendirir, toksinleri atar ve enerjinizi geri kazandırır.",
+          "🌿 Beden ve ruh için doğal yenilenme."
+        ]
+      },
+      {
+        "title": "Bekârlığa veda partileri",
+        "lines": [
+          "🎉 Bir vesileyle ya da sadece keyif için kutlayın!",
+          "10 kişiye kadar unutulmaz bir bekârlığa veda partisi düzenleyin.",
+          "🥂 Tüm arkadaşlarınızın seveceği eğlence, dinlenme ve SPA atmosferi."
+        ]
+      },
+      {
+        "title": "Mutlu saatler",
+        "lines": [
+          "⏰ 12:00–16:00 arasında dinlenmeniz için özel teklif.",
+          "Bir hizmet fiyatına iki hizmet: 1 + 1 = 1",
+          "✨ Kendinize daha fazla bakım ve rahatlama hediye etmek için harika bir fırsat.",
+          "Kampanya, kaş ve kuaför hizmetleri dışında tüm salon hizmetlerinde geçerlidir."
+        ]
+      }
+    ]
+  },
+  "bonusOffer": {
+    "title": "Kampanyalar",
+    "spaForTwo": {
+      "description": "İki kişilik SPA\nSedir fıçısı, peeling, vücut sargısı, yüz masajı, maske — 120 dakikalık keyif!\n16 000 ₽",
+      "note": ""
+    },
+    "makeupSale": {
+      "description": "🔥 Yılbaşı tatilinin sonuna kadar tüm makyaj ve saç modellerinde %40 indirim!\n14.01'e kadar geçerlidir.",
+      "note": "",
+      "link": "Fiyatları gör"
+    },
+    "offer2": {
+      "description": "Bir arkadaşınla gel, iki kişilik bitki saunası hediye!",
+      "note": "Sadece yeni misafirler için geçerlidir."
+    },
+    "offer3": {
+      "description": "Avantajlı fiyatlarla iki kat bakım!\nYeni yıl için kendinizi şımartmak ve cildinizi yenilemek için ideal zaman.\nPeeling ve vücut sargısında %20 indirim. Hemen randevu alın. 14.01'e kadar geçerlidir.",
+      "note": ""
+    },
+    "offer4": {
+      "description": "Mutlu saatler!\n12:00–16:00 arasında bir hizmet fiyatına iki hizmet: 1 + 1 = 1.\nİkinci hizmetinizi seçin: 🦶 bölgesel ayak masajı, 🤲 el masajı veya 💆 baş masajı.",
+      "note": "Kampanya, kaş ve kuaför hizmetleri dışında tüm salon hizmetlerinde geçerlidir."
+    },
+    "offer7": {
+      "description": "Manikür + kaplamalı pedikür\nÖzel fiyat — 8.700 ₽, %40 indirim.",
+      "note": ""
+    },
+    "offer8": {
+      "description": "Kaş / kirpik laminasyonu\nİlk ziyaretinizde 1.200 ₽ üzeri harcamaya 500 ₽ kupon.",
+      "note": ""
+    }
+  },
+  "nailPrice": {
+    "fitmostPrice": "Fitmost fiyatı, ₽",
+    "title": "Manikür ve pedikür",
+    "service": "Hizmet",
+    "price": "Standart fiyat, ₽",
+    "manicure": {
+      "title": "MANİKÜR",
+      "services": [
+        "Kaplama çıkarma",
+        "Çıkarma + manikür + jel ile güçlendirme",
+        "Çıkarma + manikür + baz kaplama",
+        "Manikür + jel kaplama",
+        "Manikür + baz kaplama",
+        "Kombine manikür",
+        "Japon manikürü",
+        "Tüm tırnaklara French",
+        "Tüm tırnaklara tasarım",
+        "1 tırnağa tasarım",
+        "Üst kalıplarla tırnak uzatma",
+        "Uzatılmış tırnak bakımı ve dolgu *"
+      ]
+    },
+    "pedicure": {
+      "title": "PEDİKÜR",
+      "services": [
+        "Çıkarma + pedikür + oje (ayak tabanı ve parmakların tam bakımı)",
+        "Pedikür + oje (çıkarma olmadan)",
+        "Ojesiz pedikür (ayak tabanı ve parmakların tam bakımı)",
+        "Pedikür (yalnızca ayak tırnaklarına oje)",
+        "Parafin bakımı (eller / ayaklar)"
+      ]
+    },
+    "offers": {
+      "title": "KAMPANYALI TEKLİFLER",
+      "services": [
+        "Kombine manikür + ojesiz pedikür",
+        "Çıkarma + manikür + kaplama (baz / jel) + çıkarma + pedikür + oje (ayak tabanı ve parmakların tam bakımı)"
+      ]
+    },
+    "coupon": "Bir ziyaret için 500 ₽ indirim kuponu (en az 1000 ₽ tutarında işlem)"
+  }
 }

@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Roboto } from "next/font/google";
 import Header from "./components/header/Header";
+import ClarityScript from "./components/ClarityScript/ClarityScript";
 
 const roboto = Roboto({ subsets: ["cyrillic"], weight: ["400", "700"] });
 
@@ -19,14 +20,22 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export default async function LocaleLayout({ children, params }: any) {
-  const { locale } = params;
+type Locale = (typeof routing.locales)[number];
 
-  if (!routing.locales.includes(locale)) {
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
+  if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
 
-  const messages = await getMessages({ locale });
+  const messages = await getMessages({ locale: locale as Locale });
 
   return (
     <html lang={locale} className={roboto.className}>
@@ -34,6 +43,7 @@ export default async function LocaleLayout({ children, params }: any) {
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}
+          <ClarityScript />
         </NextIntlClientProvider>
       </body>
     </html>

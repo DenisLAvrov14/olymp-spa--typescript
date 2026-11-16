@@ -6,7 +6,7 @@ import { MassageType } from "../../models/MassageType";
 
 const MassageBlock = () => {
   const t = useTranslations("massages");
-  const d = useTranslations("duration"); // для "30", "60", "90", "120", "150"
+  const d = useTranslations("duration");
 
   const massages: MassageType[] = [
     {
@@ -14,8 +14,8 @@ const MassageBlock = () => {
       title: t("classic.title"),
       description: t("classic.description"),
       prices: [
-        { time: d("60"), cost: 4000 },
-        { time: d("90"), cost: 6000 },
+        { time: d("60"), cost: 4500 },
+        { time: d("90"), cost: 6750 },
       ],
     },
     {
@@ -23,9 +23,8 @@ const MassageBlock = () => {
       title: t("lymph.title"),
       description: t("lymph.description"),
       prices: [
-        { time: d("60"), cost: 4000 },
-
-        { time: d("90"), cost: 6000 },
+        { time: d("60"), cost: 4500 },
+        { time: d("90"), cost: 6750 },
       ],
     },
     {
@@ -34,7 +33,7 @@ const MassageBlock = () => {
       description: t("sport.description"),
       prices: [
         { time: d("60"), cost: 5500 },
-        { time: d("90"), cost: 6500 },
+        { time: d("90"), cost: 8000 },
       ],
     },
     {
@@ -71,7 +70,7 @@ const MassageBlock = () => {
       image: "/massages/aroma.jpg",
       title: t("aroma.title"),
       description: t("aroma.description"),
-      prices: [{ time: d("60"), cost: 4500 }],
+      prices: [{ time: d("60"), cost: 5000 }],
     },
     {
       image: "/massages/spa.jpg",
@@ -100,12 +99,21 @@ const MassageBlock = () => {
       description: t("wrap.description"),
       prices: [{ time: d("30"), cost: 3500 }],
     },
+    {
+      image: "/massages/lymph.jpg",
+      title: t("anticel.title"),
+      description: t("anticel.description"),
+      prices: [{ time: d("60"), cost: 5500 }],
+    },
   ];
 
   return (
     <section id="services" className="bg-[#1F1D1A] py-12">
       <div className="container mx-auto px-4">
-        <h2 id="massage-block" className="mb-8 text-center text-2xl font-bold text-[#C8A96A]">
+        <h2
+          id="massage-block"
+          className="mb-8 text-center text-2xl font-bold text-[#C8A96A]"
+        >
           {t("title")}
         </h2>
         <MassageList massages={massages} />

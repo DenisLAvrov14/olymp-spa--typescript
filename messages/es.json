@@ -9,6 +9,7 @@
   },
   "duration": {
     "30": "30 minutos",
+    "40": "40 minutos",
     "60": "60 minutos",
     "90": "90 minutos",
     "120": "120 minutos",
@@ -187,6 +188,45 @@
         "options": {
           "all": "Todas las longitudes"
         }
+      },
+      {
+        "title": "Corte de cabello para hombre",
+        "description": "Corte masculino adaptado a la forma de la cabeza, la textura del cabello y sus preferencias."
+      },
+      {
+        "title": "Corte de cabello para mujer",
+        "description": "Corte femenino adaptado a la longitud, la textura del cabello y la forma deseada."
+      },
+      {
+        "title": "Peinado",
+        "description": "Peinado festivo o de noche para cualquier ocasión.",
+        "options": {
+          "short": "Cabello corto",
+          "medium": "Cabello medio",
+          "long": "Cabello largo"
+        }
+      }
+    ]
+  },
+  "makeupServices": {
+    "title": "Maquillaje y peinados",
+    "from": "desde",
+    "services": [
+      {
+        "title": "Maquillaje nude",
+        "description": "Maquillaje natural que realza tu belleza y luce fresco todo el día."
+      },
+      {
+        "title": "Maquillaje de noche",
+        "description": "Un look expresivo para una fiesta, celebración o noche especial."
+      },
+      {
+        "title": "Maquillaje lifting",
+        "description": "Maquillaje con efecto lifting: refresca visualmente y modela suavemente el rostro."
+      },
+      {
+        "title": "Maquillaje + peinado",
+        "description": "Un look completo: maquillaje y peinado para tu evento."
       }
     ]
   },
@@ -206,7 +246,7 @@
     },
     "sultan": {
       "title": "Sultán",
-"description": "Procedimiento único a 4 manos. 1 hora de placer y total relajación."
+      "description": "Procedimiento único a 4 manos. 1 hora de placer y total relajación."
     },
     "local": {
       "title": "Local",
@@ -243,51 +283,50 @@
     "stone": {
       "title": "Terapia con piedras",
       "description": "Piedras calientes para calentar profundamente los músculos."
+    },
+    "anticel": {
+      "title": "Masaje Anticelulítico",
+      "description": "Un tratamiento intensivo de los tejidos para mejorar el tono de la piel y reducir visiblemente el volumen corporal."
     }
   },
-"specialOffers": {
-  "title": "Barriles de cedro y programas de SPA",
-  "offers": [
-    {
-      "title": "Barril de cedro — 1 persona",
-      "description": "Procedimiento clásico de fitosauna para un invitado."
-    },
-    {
-      "title": "Barril de cedro — 2 personas",
-      "description": "Procedimiento de vapor para dos invitados a la vez."
-    },
-    {
-      "title": "Barril de cedro + cuidado corporal",
-      "description": "Barril - 30 minutos, cuidado corporal - 60 minutos.",
-      "durationLabel": "60–90 minutos"
-    },
-    {
-      "title": "Barril de cedro + cuidado corporal y facial",
-      "description": "Tratamiento SPA completo para cuerpo y rostro."
-    },
-    {
-      "title": "Tratamiento SPA integral",
-      "description": "Cuidado corporal + exfoliación + envoltura."
-    },
-    {
-      "title": "Programa SPA anticelulítico",
-      "description": "Exfoliación, envoltura, cuidado."
-    },
-    {
-      "title": "Adelgaza con placer",
-      "description": "Barril de cedro, baño, exfoliación, cuidado, envoltura, ceremonia del té."
-    },
-    {
-      "title": "Programa SPA relajante",
-      "description": "Exfoliación, envoltura, cuidado clásico."
-    },
-    {
-      "title": "VITA Balance",
-      "description": "Procedimiento único y completo para la recuperación vibracional del cuerpo. ¡Cada sesión es irrepetible!",
-      "durationLabel": "60 minutos"
-    }
-  ]
-},
+  "specialOffers": {
+    "title": "Barriles de cedro y programas de SPA",
+    "offers": [
+      {
+        "title": "Barril de cedro — 1 persona",
+        "description": "Procedimiento clásico de fitosauna para un invitado."
+      },
+      {
+        "title": "Barril de cedro — 2 personas",
+        "description": "Procedimiento de vapor para dos invitados a la vez."
+      },
+      {
+        "title": "Barril de cedro + cuidado corporal",
+        "description": "Barril - 30 minutos, cuidado corporal - 60 minutos.",
+        "durationLabel": "60–90 minutos"
+      },
+      {
+        "title": "Barril de cedro + cuidado corporal y facial",
+        "description": "Tratamiento SPA completo para cuerpo y rostro."
+      },
+      {
+        "title": "Tratamiento SPA integral",
+        "description": "Cuidado corporal + exfoliación + envoltura."
+      },
+      {
+        "title": "Programa SPA anticelulítico",
+        "description": "Exfoliación, envoltura, cuidado."
+      },
+      {
+        "title": "Adelgaza con placer",
+        "description": "Barril de cedro, baño, exfoliación, cuidado, envoltura, ceremonia del té."
+      },
+      {
+        "title": "Programa SPA relajante",
+        "description": "Exfoliación, envoltura, cuidado clásico."
+      }
+    ]
+  },
   "footer": {
     "nav": {
       "services": "Servicios",
@@ -312,6 +351,10 @@
       "about": "Sobre nosotros",
       "reviews": "Reseñas",
       "contacts": "Contactos"
+    },
+    "address": {
+      "hotel": "Hotel Puertas de Moscú",
+      "street": "Avenida Moskovsky 97A"
     }
   },
   "booking": {
@@ -359,9 +402,137 @@
     "closeButton": "Cerrar"
   },
   "promotion": {
-  "title": "🎁 Oferta especial",
-  "paragraph1": "Solo este mes: compra 5 tratamientos — obtén un 25% de descuento.",
-  "paragraph2": "Y al comprar 10 tratamientos — ¡30% de descuento! Puedes combinarlos: por ejemplo, 5 masajes y 5 tratamientos faciales = 30% de descuento.",
-  "button": "Solicitar certificado"
-}
+    "title": "🎁 Oferta especial",
+    "paragraph1": "Solo este mes: compra 5 tratamientos — obtén un 25% de descuento.",
+    "paragraph2": "Y al comprar 10 tratamientos — ¡25% de descuento! Puedes combinarlos: por ejemplo, 5 masajes y 5 tratamientos faciales = 25% de descuento.",
+    "button": "Solicitar certificado"
+  },
+  "promoSlider": {
+    "slides": [
+      {
+        "title": "Certificados de regalo",
+        "lines": [
+          "✨ ¡Haz un regalo inolvidable!",
+          "Un certificado es emociones, cuidado y la oportunidad de elegir lo mejor.",
+          "🎁 Perfecto para cualquier ocasión."
+        ]
+      },
+      {
+        "title": "Bonos con descuento",
+        "lines": [
+          "🌿 Ahorra y cuida de ti regularmente.",
+          "Solo ahora:",
+          "5 visitas con 20% de descuento",
+          "10 visitas con 25% de descuento",
+          "✨ Cuidado personal con placer y ahorro."
+        ]
+      },
+      {
+        "title": "Programas de SPA",
+        "lines": [
+          "💆 Regálate lujo para cuerpo y alma.",
+          "Programas SPA completos para relajación, belleza y bienestar.",
+          "🌸 Momentos de armonía y felicidad solo para ti."
+        ]
+      },
+      {
+        "title": "Sauna de hierbas",
+        "lines": [
+          "🔥 ¡Salud en cada respiro!",
+          "El barril de cedro fortalece la inmunidad, elimina toxinas y devuelve la energía.",
+          "🌿 Recuperación natural para cuerpo y espíritu."
+        ]
+      },
+      {
+        "title": "Despedidas de soltera",
+        "lines": [
+          "🎉 ¡Celebra con o sin motivo!",
+          "Organiza una despedida de soltera inolvidable para hasta 10 personas.",
+          "🥂 Diversión, descanso y un ambiente SPA que encantará a todas tus amigas."
+        ]
+      },
+      {
+        "title": "Horas felices",
+        "lines": [
+          "⏰ De 12:00 a 16:00 — una oferta especial para tu descanso.",
+          "Dos servicios por el precio de uno: 1 + 1 = 1",
+          "✨ Una buena ocasión para regalarte más cuidado y relajación.",
+          "La promoción se aplica a todos los servicios del salón, excepto los de cejas y peluquería."
+        ]
+      }
+    ]
+  },
+  "bonusOffer": {
+    "title": "Promociones",
+    "spaForTwo": {
+      "description": "SPA para dos\nBarril de cedro, exfoliación, envoltura corporal, masaje facial, mascarilla: ¡120 minutos de placer!\n16 000 ₽",
+      "note": ""
+    },
+    "makeupSale": {
+      "description": "🔥 Hasta el final de las fiestas de Año Nuevo: ¡40% de descuento en todos los maquillajes y peinados!\nVálido hasta el 14 de enero.",
+      "note": "",
+      "link": "Ver precios"
+    },
+    "offer2": {
+      "description": "¡Ven con un amigo y recibe una sauna de hierbas para dos!",
+      "note": "Válido solo para nuevos huéspedes."
+    },
+    "offer3": {
+      "description": "¡Doble cuidado con ahorro!\nEl momento ideal para mimarte y renovar tu piel para el Año Nuevo.\nExfoliación y envoltura corporal con un 20% de descuento. Reserva ahora. Válido hasta el 14 de enero.",
+      "note": ""
+    },
+    "offer4": {
+      "description": "¡Horas felices!\nDe 12:00 a 16:00 — dos servicios por el precio de uno: 1 + 1 = 1.\nElige el segundo servicio: 🦶 masaje localizado de pies, 🤲 de manos o 💆 de cabeza.",
+      "note": "La promoción se aplica a todos los servicios del salón, excepto los de cejas y peluquería."
+    },
+    "offer7": {
+      "description": "Manicura + pedicura con esmalte\nPrecio especial — 8.700 ₽, 40% de descuento.",
+      "note": ""
+    },
+    "offer8": {
+      "description": "Cejas / laminado de pestañas\nCupón de 500 ₽ para la primera visita con un ticket desde 1.200 ₽.",
+      "note": ""
+    }
+  },
+  "nailPrice": {
+    "fitmostPrice": "Precio Fitmost, ₽",
+    "title": "Manicura y pedicura",
+    "service": "Servicio",
+    "price": "Precio base, ₽",
+    "manicure": {
+      "title": "MANICURA",
+      "services": [
+        "Retirada del esmaltado",
+        "Retirada + manicura + refuerzo con gel",
+        "Retirada + manicura + capa base",
+        "Manicura + recubrimiento de gel",
+        "Manicura + capa base",
+        "Manicura combinada",
+        "Manicura japonesa",
+        "Diseño francés en todas las uñas",
+        "Diseño en todas las uñas",
+        "Diseño en 1 uña",
+        "Extensiones de uñas con moldes duales",
+        "Relleno de extensiones de uñas *"
+      ]
+    },
+    "pedicure": {
+      "title": "PEDICURA",
+      "services": [
+        "Retirada + pedicura + esmaltado (tratamiento completo de pies y dedos)",
+        "Pedicura + esmaltado (sin retirada)",
+        "Pedicura sin esmaltado (tratamiento completo de pies y dedos)",
+        "Pedicura (esmaltado solo de las uñas de los pies)",
+        "Tratamiento de parafina (manos / pies)"
+      ]
+    },
+    "offers": {
+      "title": "OFERTAS ESPECIALES",
+      "services": [
+        "Manicura combinada + pedicura sin esmaltado",
+        "Retirada + manicura + recubrimiento (base / gel) + retirada + pedicura + esmaltado (tratamiento completo de pies y dedos)"
+      ]
+    },
+    "coupon": "Cupón de 500 ₽ de descuento en una visita (gasto mínimo de 1000 ₽)"
+  }
 }

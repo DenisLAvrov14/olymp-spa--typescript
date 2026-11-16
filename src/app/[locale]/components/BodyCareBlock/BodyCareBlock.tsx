@@ -83,12 +83,21 @@ const BodyCareBlock = () => {
       description: t("services.10.description"),
       prices: [{ time: tDuration("30"), cost: 3500 }],
     },
+    {
+      image: "/massages/anticel.jpg",
+      title: t("anticel.title"),
+      description: t("anticel.description"),
+      prices: [{ time: tDuration("60"), cost: 5500 }],
+    },
   ];
 
   return (
     <section className="bg-[#1F1D1A] py-12">
       <div className="container mx-auto px-4">
-        <h2 className="mb-8 text-center text-2xl font-bold text-[#C8A96A]">{t("title")}</h2>
+        <h2 className="mb-8 text-center text-2xl font-bold text-[#C8A96A]">
+          {t("title")}
+        </h2>
+        <p className="mb-4 text-center text-white">COUNT: {services.length}</p>
         <BodyCareServicesList services={services} />
       </div>
     </section>

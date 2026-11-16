@@ -1,4 +1,5 @@
-import BodyCareBlock from "./components/BodyCareBlock/BodyCareBlock";
+import NailPriceTable from "./components/NailPriceTable/NailPriceTable";
+import BonusOffer from "./components/BonusOffer/BonusOffer";
 import BrowServicesBlock from "./components/browServicesBlock/BrowServicesBlock";
 import CertificateBlock from "./components/certificateBlock/CertificateBlock";
 import ContactBlock from "./components/contactBlock/ContactBlock";
@@ -7,6 +8,7 @@ import FixedPrivacyWidget from "./components/FixedPrivacyWidget/FixedPrivacyWidg
 import Footer from "./components/footer/Footer";
 import GreetingBlock from "./components/greetingBlock/GreetingBlock";
 import HairdresserServicesBlock from "./components/hairdresserServicesBlock/HairdresserServicesBlock";
+import MakeupServicesBlock from "./components/makeupServicesBlock/MakeupServicesBlock";
 import MassageBlock from "./components/massageBlock/MassageBlock";
 import PromotionBlock from "./components/PromotionBlock/PromotionBlock";
 import ReviewsBlock from "./components/reviewsBlock/ReviewsBlock";
@@ -19,9 +21,12 @@ export default function Home() {
       <MassageBlock />
       <SpecialOffersBlock />
       <HairdresserServicesBlock />
+      <MakeupServicesBlock />
       <BrowServicesBlock />
       <FaceCareBlock />
+      <NailPriceTable />
       <CertificateBlock />
+      <BonusOffer />
       <PromotionBlock />
       <ReviewsBlock />
       <ContactBlock />

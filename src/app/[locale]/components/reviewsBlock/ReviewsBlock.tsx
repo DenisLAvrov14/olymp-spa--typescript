@@ -1,19 +1,6 @@
 "use client";
 
 const ReviewsBlock = () => {
-  const reviews = [
-    {
-      author: "Анна П.",
-      text: "Отличное место! Всё очень уютно, мастер - профессионал!",
-      rating: 5,
-    },
-    {
-      author: "Игорь С.",
-      text: "Массаж просто супер! Чувствую себя отдохнувшим и обновлённым.",
-      rating: 4,
-    },
-    // Можно добавить кастомные отзывы
-  ];
 
   return (
     <section id="reviews" className="flex flex-col items-center bg-[#1F1D1A] px-4 py-12">
